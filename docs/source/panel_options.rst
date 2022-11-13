@@ -131,7 +131,7 @@ _________________
     .. image:: images/BP_5_start_frame_adjust.png
         :alt: TrackerJack Import Frame Start
         
-TrackerJack, by default, sets up the scene using the same start frame as your After Effects comp. However on your source footage and workflow, the are times your After Effects comp might not start with frame 0. This results in your Blender scene being created later in your timeline. While you can change the start frame in the composition settings in After Effects before you export the JSON file with TrackerJack, you might find it easier to adjust where your footage begins in Blender by using this setting. 
+TrackerJack, by default, sets up the scene using the same start frame as your After Effects comp. However, depending on your source footage and workflow, the are times your After Effects comp might not start with frame 0. This results in your Blender scene being created later in your timeline. While you can change the start frame in the composition settings in After Effects before you export the JSON file with TrackerJack, you might find it easier to adjust where your footage begins in Blender by using this setting. 
 
 * Enable - Click Enable to adjust the start frame
 * Frame - Enter the Frame Number in Blender where the scene should start.
