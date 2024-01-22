@@ -60,6 +60,20 @@ Features
 * Speed shortcuts like background footage and composition node setup.
 * Add additional pointclouds and layers after intital import.
 
+---------------------------------
+How to Purchase
+---------------------------------
+TrackerJack is exculsively available at |BlenderMarket.com|
+
+Support creators by purchasing software directly.
+Software piracy destroys the incentive necessary for a thriving community of innovation and creativity. 
+Every purchase is a show of appreciation for the hard work and dedication necessary to develop even more amazing and useful tools for everyone.
+
+.. |BlenderMarket.com| raw:: html
+
+   <a href="https://blendermarket.com/products/trackerjack", target="_blank">BlenderMarket.com</a>
+
+
 
 .. toctree::
    :maxdepth: 2
