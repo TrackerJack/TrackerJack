@@ -7,7 +7,9 @@ What is TrackerJack?
 ---------------------------------
 .. Insert animated gif here
 
-The fast and easy way to export |After Effects| 3d Camera tracked footage including cameras, nulls, and solids into |Blender| as tracked cameras with background footage, vector pointclouds, and planes.
+Do you need to match move your footage for use in a 3D environent?
+
+This is the fast and easy way to export |After Effects| 3d Camera tracked footage including cameras, nulls, and solids into |Blender| as tracked cameras with background footage, vector pointclouds, and planes. Including nulls and solids that have been animated in After Effects.
 
 .. |After Effects| raw:: html
 
