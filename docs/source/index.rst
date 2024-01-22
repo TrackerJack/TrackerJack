@@ -40,6 +40,8 @@ TrackerJack has 2 components -
       * Tracked points imported as point clouds with editable vertices
       
       * Solids imported as Mesh Planes
+
+      * Supports import of After Effects animated solids and nulls, importing either key frames or data for every frame (for matching complicated AE animations)
       
       * All imported items parented to a Empty named "World" for easy scaling and grid alignment.
       
@@ -57,8 +59,16 @@ Features
 * Faster results - spend more time modeling and animating instead of tracking.
 * Longer and more complicated tracks.
 * Easy to us scene alignment and real world scaling.
+* Supports import of animated nulls and solids.
+* One button correction of smartphone vertical footage.
 * Speed shortcuts like background footage and composition node setup.
 * Add additional pointclouds and layers after intital import.
+* Easily apply inculded effects 
+   * Eevee shadow catcher
+   * Fake HDRI
+   * Interpolate Keyframes
+
+
 
 ---------------------------------
 How to Purchase
