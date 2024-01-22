@@ -20,7 +20,15 @@ After Effects Panel Install
 
 .. image:: images/InstallAEplugin.gif
   :alt: TrackerJack_AE Installed
-  
+
+#. "Allow scripts to write files and access network" must be enabled in AE Preferences.
+Troubleshooting
+
+    .. image:: images/AE05-Troubleshooting.gif
+        :alt: Export JSON
+    .. tip::
+        
+
 ----------------------------
 Blender Add-on Install
 ----------------------------
