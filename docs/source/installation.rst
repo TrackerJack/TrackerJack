@@ -24,9 +24,8 @@ After Effects Panel Install
 5. "Allow scripts to write files and access network" must be enabled in AE Preferences.
 Troubleshooting
 
-    .. image:: images/AE05-Troubleshooting.gif
-        :alt: Export JSON
-    .. tip::
+ .. image:: InstallAEPrefs.gif
+     :alt: Allow Scripts to Write Files
         
 
 ----------------------------
