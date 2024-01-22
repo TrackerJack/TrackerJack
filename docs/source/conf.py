@@ -6,8 +6,8 @@ project = 'TrackerJack'
 copyright = '2022, TrackerJack'
 author = 'TrackerJack'
 
-release = '0.1'
-version = '0.1.0'
+release = '2.0'
+version = '0.0.0'
 
 # -- General configuration
 
