@@ -18,7 +18,7 @@ After Effects Panel Install
 #. Open After Effects and select the **TrackerJack_AE.jsxbin** option in the Windows Menu command.
 #. Drag the TrackerJack Panel to your desired location in the UI.
 
-.. image:: images/Quick-Start-AE.gif
+.. image:: images/InstallAEplugin.gif
   :alt: TrackerJack_AE Installed
   
 ----------------------------
