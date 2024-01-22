@@ -19,8 +19,6 @@ After Effects
 
       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
    
-
-
    \b)  Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
    
    \c) Open After Effects Preferences and make sure that "Allow scripts to write files and access network" is enabled.
@@ -75,16 +73,11 @@ Blender
 
    .. |Install the Addon| raw:: html
 
-      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install the Addon</a>
+      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#Blender-Add-on-install-install">Install the Addon</a>
 
-   * Open Blender and |Install|.
+   * Open Blender and Install.
    * Locate the TrackerJack zip file
    * Enable the check box to activate the add-on
-
-
-   .. |Install| raw:: html
-
-      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#blender-panel-install">Install</a>
 
     .. image:: images/BL00-Install.gif
         :alt: Install Blender Add-on
