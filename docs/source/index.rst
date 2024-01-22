@@ -56,6 +56,7 @@ Features
 ---------------------------------
 
 * Uses After Effects Automated 3d Camera Tracking.
+* One button Auto Export from After Effects.
 * Faster results - spend more time modeling and animating instead of tracking.
 * Longer and more complicated tracks.
 * Easy to us scene alignment and real world scaling.
@@ -63,10 +64,10 @@ Features
 * One button correction of smartphone vertical footage.
 * Speed shortcuts like background footage and composition node setup.
 * Add additional pointclouds and layers after intital import.
-* Easily apply inculded effects 
+* Easily adjust Keyframe interpolation
+* Includes these bonus effects 
    * Eevee shadow catcher
    * Fake HDRI
-   * Interpolate Keyframes
 
 
 
