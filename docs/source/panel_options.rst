@@ -11,6 +11,10 @@ _________________
 
 |InstallAEPanel| the UI Panel and open After Effects if you haven't already.
 
+Under the Create tab you have two options - Auto Export and Manual Export. 
+ Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
+ Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
+
  .. image:: images/AEPanelCreate.png
       :alt: After Effects TrackerJack Panel
  
@@ -19,7 +23,7 @@ _________________
       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
       
 
-Under the Create tab you have two options - Auto Export and Manual Export. Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
+
 
 Auto Export
 _________________
