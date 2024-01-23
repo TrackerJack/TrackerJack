@@ -45,5 +45,5 @@ Blender Add-on Install
 If you have any issues please reach out for assistance at use the "Contact Creator" button at |Blender Market Contact Page|
 
 .. |Blender Market| raw:: html
-   <a href="|https://blendermarket.com/creators/jim-elder" target="_blank">Blender Market Contact Page</a>
+   <a href="https://blendermarket.com/creators/jim-elder" target="_blank">Blender Market Contact Page</a>
 
