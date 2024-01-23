@@ -164,3 +164,9 @@ You can change where the TrackerJack JSON file is saved. If you're on a team and
    
    * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
 
+3. JSON filepath if you chose 'User Selection' you may need to select your JSON file here in order to add additional items. When generating a new JSON file this is unnessary (Auto Export or Manual Export). When using the Add Tab TrackerJack looks either in the folder where your Project is or at this field. If your JSON file is not in the project folder and this field is empty, you'll get an error.
+
+    .. image:: images/AESettingsFilepath.png
+        :alt: JSON filepath
+
+
