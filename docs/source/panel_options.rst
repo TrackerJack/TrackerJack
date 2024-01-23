@@ -23,9 +23,9 @@ Under the Create tab you have two options - Auto Export and Manual Export. Auto 
 
 Auto Export
 _________________
-#. Save your AE project file to a folder. This is the default location where your JSON file will be saved. 
-You can also save to a custom file location (See Settings > JSON Save Location) 
-#. Click the Auto Export Button.
+1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
+   You can also save to a custom file location (Settings > JSON Save Location > User Selection) 
+2. Click the Auto Export Button.
 
      .. image:: images/AEAutoBut.png
         :alt: Auto Export
