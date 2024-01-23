@@ -110,7 +110,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
    * Selected - will export the layers manually selected in the timeline
     
     .. image:: images/AEPanelAdd3.png
-        :alt: Add Pointcloud Name
+        :alt: Layer Choice
 
 5. Click the Export Additional button
 
@@ -145,13 +145,22 @@ _________________
 There are a few options to change the method of operation for TrackerJack in the Settings Panel.
 
 1. JSON Save Location 
+
     .. image:: images/AESettingsSave.png
-        :alt: Info Tab
+        :alt: JSON Tab
+
 You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
 
    * Default - will export to the same folder where your After Effects project is saved.
    
    * User Selection - After you click export you can choose where to save the JSON file.
 
+2. Frame Export button controls how After Effects layer animation is written to the JSON file
 
+    .. image:: images/AESettingsFrame.png
+        :alt: Frame Export Choice
+
+   * Keyframes Only - Only the actual layer keys are exported. Use with linear or Bezier interpolation
+   
+   * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
 
