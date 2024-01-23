@@ -1,4 +1,5 @@
-Blender Panel
+#################
+Blender Panel Options
 #################
 
 |InstallBIPanel| the Blender Add-on and open Blender if you haven't already. The Blender panel is found in the 3D view 'n' panel.
