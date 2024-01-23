@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'TrackerJack'
-copyright = '2024, TrackerJack'
+copyright = '2022, TrackerJack'
 author = 'TrackerJack'
 
-release = '2.0'
-version = '0.2.0'
+release = '0.1'
+version = '0.1.0'
 
 # -- General configuration
 
