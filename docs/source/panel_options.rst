@@ -1,9 +1,5 @@
 #################
-Panel Options
-#################
-
-
-After Effects Panel
+After Effects Panel Options
 #################
 
 Create Tab
