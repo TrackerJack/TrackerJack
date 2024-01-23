@@ -69,7 +69,7 @@ There are only two entries to make in order create the initial export of your tr
 10. Click the Export button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
     .. image:: images/AEManBut.png
-        :alt: Manula Export Button
+        :alt: Manual Export Button
 
    The JSON file is named {Your Project File Name}_{The Comp Name}_TrackerJack.json. You can track one camera for each composition in your Project file.
 
@@ -87,12 +87,16 @@ _________________
 Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click Export Additional the file is updated. 
 
 1. Click the 'Select 3D Tracker Layer Button'. This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
-.. image:: images/AEPanelAdd1.png
-     :alt: Select Button
+
+
+    .. image:: images/AEPanelAdd1.png
+        :alt: Select Trackers button
+
 2. Create new nulls and/or solids in your composition.
 3. Enter a name for the new point cloud (new null layers)
- .. image:: images/AEPanelAdd2.png
-     :alt: Add Name 
+ 
+    .. image:: images/AEPanelAdd2.png
+        :alt: Add Pointcloud Name
 
 #. Choose which layers to export
 
