@@ -89,6 +89,9 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
         :alt: Select Trackers button
 
 2. Create new nulls and/or solids in your composition.
+    .. image:: images/SelectItems.gif
+        :alt: Add Pointcloud Name
+
 3. Enter a name for the new point cloud (new null layers)
  
     .. image:: images/AEPanelAdd2.png
@@ -103,7 +106,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
     .. image:: images/AEPanelAdd3.png
         :alt: Add Pointcloud Name
 
-#. Click the Export Additional button
+5. Click the Export Additional button
 
     .. image:: images/AEPanelAdd4.png
         :alt: Export Additional Button
@@ -130,5 +133,13 @@ _________________
 There are a few options to change the method of operation for TrackerJack in the Settings Panel.
 
 1. JSON Save Location 
+    .. image:: images/AESettingsSave.png
+        :alt: Info Tab
+You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
+
+   * Default - will export to the same folder where your After Effects project is saved.
+   
+   * User Selection - After you click export you can choose where to save the JSON file.
+
 
 
