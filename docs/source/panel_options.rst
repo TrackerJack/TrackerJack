@@ -18,8 +18,21 @@ _________________
 
       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
       
-      
-Under the Create tab are only two entries to make in order create the initial export of your tracked composition from After Effects to a JSON file that the Blender TrackerJack add-on will import. The values for Focal Length and Angle of View boxes which can be copied from the Camera Settings panel.
+
+Under the Create tab you have two options - Auto Export and Manual Export. Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
+
+Auto Export
+_________________
+
+#. Copy the Focal Length value.
+
+     .. image:: images/AE_2_cam_settings_focal.png
+        :alt: Auto Export
+
+
+Manual Export
+_________________
+There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View boxes which can be copied from the Camera Settings panel.
 
 #. Double click on the 3D Tracker Camera layer in the comp timeline.
 #. Copy the Focal Length value.
@@ -37,13 +50,10 @@ Under the Create tab are only two entries to make in order create the initial ex
 #. Double click on the 3D Tracker Camera layer in the comp timeline.
 #. Copy the Angle of View value.
 
-     .. image:: images/AE_4_cam_settings_angle.png
-        :alt: Camera Settings Angle of View
-        
 #. Click Cancel to close the panel
 #. Paste the value into the TrackerJack Angle of View box.
 
-    .. image:: images/AE_5_tjpanel_angle.png
+    .. image:: images/AEPanelCreate2.png
         :alt: TrackerJack Angle of View
         
 #. Make sure that you have saved your After Effects file.
