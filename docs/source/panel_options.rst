@@ -25,6 +25,7 @@ Auto Export
 _________________
 1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
    You can also save to a custom file location (Settings > JSON Save Location > User Selection) 
+
 2. Click the Auto Export Button.
 
      .. image:: images/AEAutoBut.png
@@ -36,12 +37,14 @@ _________________
 There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View boxes which can be copied from the Camera Settings panel.
 
 1. Double click on the 3D Tracker Camera layer in the comp timeline.
+
 2. Copy the Focal Length value.
 
      .. image:: images/AEManCam1.png
         :alt: Camera Settings Focal Length
         
 3. Click Cancel to close the panel
+
 4. Paste the value into the TrackerJack Focal Length box.
 
     .. image:: images/AEManPan1.png
@@ -49,6 +52,7 @@ There are only two entries to make in order create the initial export of your tr
 
 
 5. Double click on the 3D Tracker Camera layer in the comp timeline.
+
 6. Copy the Angle of View value.
 
 
@@ -56,12 +60,14 @@ There are only two entries to make in order create the initial export of your tr
         :alt: Camera Setting Angle of View
 
 7. Click Cancel to close the panel
+
 8. Paste the value into the TrackerJack Angle of View box.
 
     .. image:: images/AEManPan2.png
         :alt: TrackerJack Angle of View
         
 9. Make sure that you have saved your After Effects file.
+
 10. Click the Export button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
     .. image:: images/AEManBut.png
@@ -88,7 +94,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
     .. image:: images/AEPanelAdd1.png
         :alt: Select Trackers button
 
-2. Create new nulls and/or solids in your composition.
+2. Create new nulls and or solids in your composition.
     .. image:: images/SelectItems.gif
         :alt: Add Pointcloud Name
 
@@ -115,18 +121,24 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
 
 Info Tab
 _________________
+
     .. image:: images/AEPanelInfo.png
         :alt: Info Tab
+
 After exporting the JSON file the Info tab displays detailed information about your comp and project, which can be useful for troubleshooting any issues.
+
 
 JSON Tab
 _________________
+
     .. image:: images/AEPanelJSON.png
-        :alt: Info Tab
+        :alt: JSON Tab
+
 After exporting the JSON file the JSON tab displays the generated JSON data. You can copy and paste into a text editor or use the 'Save JSON File' button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
 
 Settings Tab
 _________________
+
     .. image:: images/AEPanelSettings.png
         :alt: Info Tab
 
