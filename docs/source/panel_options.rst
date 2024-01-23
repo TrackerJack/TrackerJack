@@ -78,15 +78,17 @@ There are only two entries to make in order create the initial export of your tr
 
 
 
-Add (Optional) Tab
+Add Tab
 _________________
 
-    .. image:: images/AE_7_tjpanel_add.png
+    .. image:: images/AEPanelAdd.png
         :alt: TrackerJack Add Tab
 
 Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click Export Additional the file is updated. 
 
-#. Create new nulls and/or solids in your composition.
+1. Create new nulls and/or solids in your composition.
+    .. image:: images/AEPanelAdd.png
+        :alt: TrackerJack Add Tab
 #. Enter a name for the new point cloud (new null layers)
 #. Choose which layers to export
 
