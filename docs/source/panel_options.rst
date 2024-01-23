@@ -86,10 +86,14 @@ _________________
 
 Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click Export Additional the file is updated. 
 
-1. Create new nulls and/or solids in your composition.
-    .. image:: images/AEPanelAdd.png
-        :alt: TrackerJack Add Tab
-#. Enter a name for the new point cloud (new null layers)
+1. Click the 'Select 3D Tracker Layer Button'. This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
+.. image:: images/AEPanelAdd1.png
+     :alt: Select Button
+2. Create new nulls and/or solids in your composition.
+3. Enter a name for the new point cloud (new null layers)
+ .. image:: images/AEPanelAdd2.png
+     :alt: Add Name 
+
 #. Choose which layers to export
 
    * Auto - will export any new layers since the last export
