@@ -149,11 +149,13 @@ There are a few options to change the method of operation for TrackerJack in the
     .. image:: images/AESettingsSave.png
         :alt: JSON Tab
 
+
 You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
 
    * Default - will export to the same folder where your After Effects project is saved.
    
    * User Selection - After you click export you can choose where to save the JSON file.
+
 
 2. Frame Export button controls how After Effects layer animation is written to the JSON file
 
@@ -163,6 +165,7 @@ You can change where the TrackerJack JSON file is saved. If you're on a team and
    * Keyframes Only - Only the actual layer keys are exported. Use with linear or Bezier interpolation
    
    * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
+
 
 3. JSON filepath if you chose 'User Selection' you may need to select your JSON file here in order to add additional items. When generating a new JSON file this is unnessary (Auto Export or Manual Export). When using the Add Tab TrackerJack looks either in the folder where your Project is or at this field. If your JSON file is not in the project folder and this field is empty, you'll get an error.
 
