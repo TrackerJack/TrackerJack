@@ -98,17 +98,19 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
     .. image:: images/AEPanelAdd2.png
         :alt: Add Pointcloud Name
 
-#. Choose which layers to export
+4. Choose which layers to export
 
    * Auto - will export any new layers since the last export
    
    * Selected - will export the layers manually selected in the timeline
-
-       .. image:: images/AE_8_tjpanel_add_options.png
-        :alt: TrackerJack Add Tab Options
+    
+    .. image:: images/AEPanelAdd3.png
+        :alt: Add Pointcloud Name
 
 #. Click the Export Additional button
 
+    .. image:: images/AEPanelAdd4.png
+        :alt: Add Pointcloud Name
 .. tip::
         You can continue to create additional null layers, name them, and then click Export Additional repeatedly if you want to create more named pointcloud layers before returning to Blender.
         
