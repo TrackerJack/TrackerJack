@@ -42,8 +42,8 @@ Blender Add-on Install
 .. image:: images/Quick-Start-Blender.gif
   :alt: TrackerJack Importer Installed
 
-If you have any issues please reach out for assistance at use the "Contact Creator" button at |https://blendermarket.com/creators/jim-elder|
-.. ||https://blendermarket.com/creators/jim-elder| raw:: html
+If you have any issues please reach out for assistance at use the "Contact Creator" button at |Blender Market Contact Page|
 
+.. |Blender Market| raw:: html
    <a href="|https://blendermarket.com/creators/jim-elder" target="_blank">Blender Market Contact Page</a>
 
