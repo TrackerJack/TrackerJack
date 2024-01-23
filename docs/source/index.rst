@@ -96,6 +96,7 @@ Every purchase is a show of appreciation for the hard work and dedication necess
    installation
    quick_start
    panel_options
+   Blender_panel_options
    extras
    
 .. note::
