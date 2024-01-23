@@ -23,10 +23,10 @@ Under the Create tab you have two options - Auto Export and Manual Export. Auto 
 
 Auto Export
 _________________
+#. Save your project file to a folder. This is the default location where your JSON file will be saved. You can also save to a custom file location (See Settings > JSON Save Location) 
+#. Click the Auto Export Button.
 
-#. Copy the Focal Length value.
-
-     .. image:: images/AE_2_cam_settings_focal.png
+     .. image:: images/AEAutoBut.png
         :alt: Auto Export
 
 
