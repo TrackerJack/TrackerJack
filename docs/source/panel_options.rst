@@ -106,8 +106,29 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
 #. Click the Export Additional button
 
     .. image:: images/AEPanelAdd4.png
-        :alt: Add Pointcloud Name
+        :alt: Export Additional Button
 .. tip::
         You can continue to create additional null layers, name them, and then click Export Additional repeatedly if you want to create more named pointcloud layers before returning to Blender.
-        
-        
+
+Info Tab
+_________________
+    .. image:: images/AEPanelInfo.png
+        :alt: Info Tab
+After exporting the JSON file the Info tab displays detailed information about your comp and project, which can be useful for troubleshooting any issues.
+
+JSON Tab
+_________________
+    .. image:: images/AEPanelJSON.png
+        :alt: Info Tab
+After exporting the JSON file the JSON tab displays the generated JSON data. You can copy and paste into a text editor or use the 'Save JSON File' button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
+
+Settings Tab
+_________________
+    .. image:: images/AEPanelSettings.png
+        :alt: Info Tab
+
+There are a few options to change the method of operation for TrackerJack in the Settings Panel.
+
+1. JSON Save Location 
+
+
