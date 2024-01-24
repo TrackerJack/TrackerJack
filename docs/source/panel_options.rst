@@ -81,6 +81,7 @@ The JSON file is named *{Your Project File Name}_{The Comp Name}_TrackerJack.jso
 ======================================================
 Add Tab
 ======================================================
+
 .. image:: images/AEPanelAdd.png
   :alt: TrackerJack Add Tab
 
@@ -90,10 +91,12 @@ Select 3D Tracker Layer button
 _________________
 
 This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
+
 .. image:: images/AEPanelAdd1.png
   :alt: Select Trackers button
 
 Once the track points are active you can create new nulls and or solids in your composition.
+
 .. image:: images/SelectItems.gif
   :alt: Add Pointcloud Name
 
@@ -128,6 +131,7 @@ Click the **Export Additional** button to update the existing JSON file.
 ======================================================
 Info Tab
 ======================================================
+
 .. image:: images/AEPanelInfo.png
   :alt: Info Tab
 
@@ -136,6 +140,7 @@ After exporting the JSON file the Info tab displays detailed information about y
 ======================================================
 JSON Tab
 ======================================================
+
 .. image:: images/AEPanelJSON.png
   :alt: JSON Tab
 
@@ -145,13 +150,15 @@ After exporting the JSON file the JSON tab displays the generated JSON data. You
 ======================================================
 Settings Tab
 ======================================================
+
 .. image:: images/AEPanelSettings.png
   :alt: Info Tab
 
 There are a few options to change the method of operation for TrackerJack in the Settings Panel.
 
-JSON Save Location
+JSON Save Location(Drop down choice)
 _________________
+
 .. image:: images/AESettingsSave.png
   :alt: JSON Tab
 
