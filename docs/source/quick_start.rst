@@ -137,16 +137,17 @@ After Effects - add more
 ------------------------------------------
 
 Use the **Add** tab in the TrackerJack panel to add additional items to an existing JSON file.
+
 .. image:: images/AEPanelAdd.png
-  :alt: TrackerJack Add Tab
+     :alt: TrackerJack Add Tab
 
 Activate the Track points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Clicking the button **Select 3D Tracker Layer** button which selects the movie layer and then selects the 3D Tracker Effect, activating the track points for selection.
 
-.. image:: images/AEPanelAdd1.png
-  :alt: Select Trackers button
+.. image:: images/AEPanelAdd.png
+     :alt: Select Trackers button
 
 Create more null and solid layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -154,7 +155,7 @@ Create more null and solid layers
 Once the track points are active you can |select and create new nulls and or solids| in your composition.
 
 .. image:: images/SelectItems.gif
-  :alt: Add Pointcloud Name
+     :alt: Add Pointcloud Name
 
 .. |select and create new nulls and or solids| raw:: html
 
