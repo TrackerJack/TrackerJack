@@ -14,7 +14,7 @@ After Effects
 
 Install After Effects Effects Panel
 ------------------------------------------
-1.|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
+1.|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  *(path_to_After_Effects_Applicaiton_folder) > Scripts > ScriptUI Panels* 
    
 .. |Install| raw:: html
 
