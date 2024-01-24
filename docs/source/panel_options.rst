@@ -36,41 +36,40 @@ Manual Export
 _________________
 There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View fields which can be copied from the Camera Settings panel.
 
-x. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
+1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
    You can also save to a custom file location *(Settings > JSON Save Location > User Selection)* 
 
-x. Double click on the 3D Tracker Camera layer in the comp timeline.
+2. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-x. Copy the **Focal Length** value.
+3. Copy the **Focal Length** value.
 
 .. image:: images/AEManCam1.png
   :alt: Camera Settings Focal Length
         
-x. Click Cancel to close the panel
+4. Click Cancel to close the panel
 
-x. Paste the value into the TrackerJack **Focal Length** field.
+5. Paste the value into the TrackerJack **Focal Length** field.
 
 .. image:: images/AEManPan1.png
   :alt: TrackerJack Focal Length
 
 
-x. Double click on the 3D Tracker Camera layer in the comp timeline.
+6. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-x. Copy the **Angle of View** value.
+7. Copy the **Angle of View** value.
 
 .. image:: images/AEManCam2.png
   :alt: Camera Setting Angle of View
 
-x. Click Cancel to close the panel
+8. Click Cancel to close the panel
 
-x. Paste the value into the TrackerJack **Angle of View** field.
+9. Paste the value into the TrackerJack **Angle of View** field.
 
 .. image:: images/AEManPan2.png
   :alt: TrackerJack Angle of View
         
-x. Make sure that you have saved your After Effects file.
 
-x. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
+10. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
 .. image:: images/AEManBut.png
   :alt: Manual Export Button
