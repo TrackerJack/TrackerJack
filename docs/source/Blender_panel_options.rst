@@ -20,15 +20,16 @@ Select Files Panel
 Select TrackerJack JSON File button
 _________________
 
-.. image:: images/BPanel_SelectFilesbutton.png
-    :alt: Select Files Button
 
 1. Click the button and locate the TrackerJack JSON file you exported from After Effects.
 
-.. image:: images/BPanel_SelectFiles2.png
-    :alt: Select Files Filepaths
+.. image:: images/BPanel_SelectFilesbutton.png
+    :alt: Select Files Button
 
 2. The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
+
+.. image:: images/BPanel_SelectFiles2.png
+    :alt: Select Files Filepaths
 
  .. tip::
     *If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file button to manually locate the movie file, or you can use the **Import Scene without Movie** button.*
