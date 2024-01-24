@@ -57,7 +57,7 @@ Auto Export is the default and easiest way to export your project data from Afte
 Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
 
 Auto Export
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 \a) Make sure to save your After Effects Project into a folder. By default this is where your JSON file is saved. 
 \b) In the **Create** tab click the **Auto Export JSON** button.
@@ -69,7 +69,7 @@ The alert confirms the filepath of the exported file.
 
 
 Manual Export
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 \a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
       
 \b) Save the After Effects file.
@@ -81,8 +81,9 @@ Manual Export
 
 
 
+======================================================
 Blender
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+======================================================
 
 
 #. |Install the Addon| if you haven't already
@@ -121,7 +122,7 @@ Blender
 
 
 Adding Additional Items
-#################
+
 
 Once you begin modeling your scene in Blender, you may require addtional pointclouds or planes to build out your scene. It is easy to go back to After Effects and create additional layers, ammend the orginal JSON file, and import them into your Blender scene while maintaining the world scale and rotation you have already set.
 
