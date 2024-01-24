@@ -48,6 +48,7 @@ Add footage and Track
 .. image:: images/AE03-AddItems.gif
   :alt: Add AE Items
         
+
 Export with TrackerJack
 ------------------------------------------
 
@@ -56,7 +57,7 @@ Auto Export is the default and easiest way to export your project data from Afte
 Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
 
 Auto Export
-______________
+------------------------------------------
 
 \a) Make sure to save your After Effects Project into a folder. By default this is where your JSON file is saved. 
 \b) In the **Create** tab click the **Auto Export JSON** button.
@@ -68,7 +69,7 @@ The alert confirms the filepath of the exported file.
 
 
 Manual Export
-______________
+------------------------------------------
 \a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
       
 \b) Save the After Effects file.
@@ -79,8 +80,9 @@ ______________
      :alt: Manual Export JSON
 
 
+
 Blender
-#################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 #. |Install the Addon| if you haven't already
