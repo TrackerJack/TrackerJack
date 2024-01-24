@@ -90,32 +90,49 @@ Blender
 ======================================================
 
 
-|Install the Addon|
+Install the Blender Addon
 ------------------------------------------
 
-.. |Install the Addon| raw:: html
-
-   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/#installation.html#blender-add-on-install">Install the Addon</a>
-
-* Open Blender and Install.
-* Locate the TrackerJack zip file
-* Enable the check box to activate the add-on
+|InstallBIPanel| the Blender Add-on and open Blender if you haven't already. The Blender panel is found in the 3D view 'n' panel.
+This panel has many options and powerful features that are not avaiable thru the simpler method at *File > Import > TrackerJack AE Tracking Data(.json)*
 
 .. image:: images/BL00-Install.gif
      :alt: Install Blender Add-on
 
-Import the JSON data into Blender
+.. |InstallBIPanel| raw:: html
+
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/#installation.html#blender-add-on-install">Install</a>
+
+Import JSON and Adjust Scene
 ------------------------------------------
 
-* Press 'a' to select all, then press 'x' and click the *Delete* button to clear the default elements.
-* Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
-* Locate and select the JSON file exported from After Effects. (Adjust settings of panel or use default settings)
+Import the JSON file into Blender
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/BL01-Import.gif
-     :alt: Import JSON data
+1. Click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
+
+.. image:: images/BPanel_SelectFilesbutton.png
+   :alt: Select Files Button
+
+2. The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
+
+.. image:: images/BPanel_SelectFiles2.png
+   :alt: Select Files Filepaths
+
+.. tip::
+    If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file **button** to manually locate the movie file, or you can use the **Import Scene without Movie** button.
+
+    .. image:: images/BPanel_SelectFiles3.png
+        :alt: Select Files Panel Error
+
+3. Click the **Import Scene** button.
+
+.. image:: images/BPanelImportScene.png
+   :alt: Select Files Filepaths
+
         
 Scale and Rotate the World
-------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
 * Press Spacebar to play the timeline (Advancing frames)
@@ -146,7 +163,7 @@ Activate the Track points
 
 Clicking the button **Select 3D Tracker Layer** button which selects the movie layer and then selects the 3D Tracker Effect, activating the track points for selection.
 
-.. image:: images/AEPanelAdd.png
+.. image:: images/AEPanelAdd1.png
      :alt: Select Trackers button
 
 Create more null and solid layers
