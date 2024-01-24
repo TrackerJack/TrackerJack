@@ -2,11 +2,11 @@
 Quick Start
 #####################################
 
-|Video Link|
+Watch the full quick start video |here|.
 
-.. |Video Link| raw:: html
+.. |here| raw:: html
 
-   <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">Video Link</a>
+   <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
    
 ======================================================
 After Effects
