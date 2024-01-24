@@ -24,8 +24,8 @@ Install After Effects Effects Panel
    
 3. Open After Effects Preferences and make sure that "Allow scripts to write files and access network" is enabled.
 
- .. image:: images/AE01-Install.gif
-     :alt: Install AE Panel
+.. image:: images/AE01-Install.gif
+  :alt: Install AE Panel
         
 Add footage and Track
 ------------------------------------------
@@ -34,8 +34,8 @@ Add footage and Track
    
 2. Use Effects > 3D Camera Tracker on the footage layer in your composition.
 
- .. image:: images/AE02-Import.gif
-     :alt: Import and Track Footage
+.. image:: images/AE02-Import.gif
+  :alt: Import and Track Footage
         
 3. Select tracked points and create elements
 
@@ -80,8 +80,8 @@ Manual Export
       
 \c) Click the **Manual Export JSON** button on the TrackerJack Panel
    
- .. image:: images/AE04-Export.gif
-     :alt: Manual Export JSON
+.. image:: images/AE04-Export.gif
+  :alt: Manual Export JSON
 
 
 
@@ -119,13 +119,18 @@ Import the JSON file into Blender
 .. image:: images/BPanel_SelectFiles2.png
    :alt: Select Files Filepaths
 
+3. Under **Import Settings** make sure the option ****Import AE Scene** is selected.
+
+.. image:: images/BPanel_ImportOpts1.png
+    :alt: Import Type
+
 .. tip::
     If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file **button** to manually locate the movie file, or you can use the **Import Scene without Movie** button.
 
     .. image:: images/BPanel_SelectFiles3.png
         :alt: Select Files Panel Error
 
-3. Click the **Import Scene** button.
+4. Click the **Import Scene** button.
 
 .. image:: images/BPanelImportScene.png
    :alt: Select Files Filepaths
@@ -211,9 +216,26 @@ Click the **Export Additional** button to update the existing JSON file.
 Blender - import more
 ------------------------------------------
 
-   * Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
-   * In the options panel (press 'n' if necessary) select *Option 2 Add Additional Items*
-   * Click the *Import* button
-   
-    .. image:: images/BL04-AdditionalItemsBlender.gif
-        :alt: Scale and Rotate the World
+Verify Filepaths and Settings
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
+
+.. image:: images/BPanel_SelectFiles2.png
+   :alt: Select Files Filepaths
+
+If they are empty click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
+
+Under **Import Settings** make sure the option ****Add Additional Tracked Items** is selected.
+
+.. image:: images/BPanel_ImportOpts1.png
+    :alt: Import Type
+
+Update Scene
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Click the **Import Scene** button.
+
+.. image:: images/BPanelImportScene.png
+   :alt: Select Files Filepaths
+
+ 
+
