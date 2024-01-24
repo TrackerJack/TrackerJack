@@ -13,12 +13,15 @@ This panel has many options and powerful features that are not avaiable thru the
        <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#blender-add-on-install">Install</a>
 
 
-        
-Import Settings
+======================================================
+Select Files Panel
+======================================================
+
+Select TrackerJack JSON File button
 _________________
 
-    .. image:: images/BP_2_import_settings.png
-        :alt: TrackerJack Import Settings
+    .. image:: images/BPanel_SelectFiles1.png
+        :alt: Select Files Panel
  
  * 1. Import AE Scene - This is the default setting, to be used for the first import of a JSON file to set up your scene.
    
