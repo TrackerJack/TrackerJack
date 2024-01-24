@@ -133,7 +133,7 @@ Adding Additional Items
 
 Once you begin modeling your scene in Blender, you may require addtional pointclouds or planes to build out your scene. It is easy to go back to After Effects and create additional layers, append the orginal JSON file, and import them into your Blender scene while maintaining the world scale and rotation you have already set. Each time you click **Export Additional** button the file is updated.
 
-Adding Additional Items - After Effects 
+After Effects - add more
 ------------------------------------------
 
 Use the **Add** tab in the TrackerJack panel to add additional items to an existing JSON file.
@@ -190,7 +190,7 @@ Click the **Export Additional** button to update the existing JSON file.
         You can continue to create additional null layers, name them, and then click Export Additional repeatedly if you want to create more named pointcloud layers before returning to Blender.
 
 
-Adding Additional Items - Blender
+Blender - import more
 ------------------------------------------
 
    * Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
