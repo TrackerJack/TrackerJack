@@ -11,7 +11,7 @@ Quick Start
 After Effects
 #################
 
-#. Install After Effects Effects Panel
+1. Install After Effects Effects Panel
 
    \a)  |Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
    
@@ -26,7 +26,7 @@ After Effects
     .. image:: images/AE01-Install.gif
         :alt: Install AE Panel
         
-#. Add footage and Track
+2. Add footage and Track
 
    \a) Add footage and create a composition.
    
@@ -35,7 +35,7 @@ After Effects
     .. image:: images/AE02-Import.gif
         :alt: Import and Track Footage
         
-#. Select tracked points and create elements
+3. Select tracked points and create elements
 
    \a) Select points and right click to create Origin and Ground
    
@@ -46,25 +46,30 @@ After Effects
     .. image:: images/AE03-AddItems.gif
         :alt: Add AE Items
         
-#. Using the TrackerJack Panel
+4. Exporting using the TrackerJack Panel
 
+   Auto Export
+   ______________
+   
+   \a) Make sure to save your After Effects Project into a folder. By default this is where your JSON file is saved. 
+   \b) In the **Create** tab click the **Auto Export JSON** button.
+   
+   .. image:: images/AEAutoBut.png
+        :alt: Auto Export JSON
+   
+   The alert confirms the filepath of the exported file.
+
+.. tip::
+   Manual Export
+   ______________
    \a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
-   
+         
    \b) Save the After Effects file.
-   
-   \c) Click the Export JSON button on the TrackerJack Panel
-
+         
+   \c) Click the **Manual Export JSON** button on the TrackerJack Panel
+      
     .. image:: images/AE04-Export.gif
-        :alt: Export JSON
-
-Troubleshooting
-
-    .. image:: images/AE05-Troubleshooting.gif
-        :alt: Export JSON
-    .. tip::
-        "Allow scripts to write files and access network" must be enabled in AE Preferences.
-        
-    TrackerJack requires that After Effects Application is in English Language. A universal language version of TrackerJack is being tested.
+        :alt: Manual Export JSON
 
 Blender
 #################
