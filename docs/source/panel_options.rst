@@ -43,7 +43,7 @@ There are only two entries to make in order create the initial export of your tr
         
 3. Click Cancel to close the panel
 
-4. Paste the value into the TrackerJack *Focal Length* field.
+4. Paste the value into the TrackerJack **Focal Length** field.
 
     .. image:: images/AEManPan1.png
         :alt: TrackerJack Focal Length
@@ -59,7 +59,7 @@ There are only two entries to make in order create the initial export of your tr
 
 7. Click Cancel to close the panel
 
-8. Paste the value into the TrackerJack *Angle of View* field.
+8. Paste the value into the TrackerJack **Angle of View** field.
 
     .. image:: images/AEManPan2.png
         :alt: TrackerJack Angle of View
@@ -96,7 +96,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
     .. image:: images/SelectItems.gif
         :alt: Add Pointcloud Name
 
-3. Enter a name for the new point cloud (new null layers) in the name field.
+3. Enter a name for the new point cloud (new null layers) in the **Name** field.
  
     .. image:: images/AEPanelAdd2.png
         :alt: Add Pointcloud Name
@@ -110,7 +110,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
     .. image:: images/AEPanelAdd3.png
         :alt: Layer Choice
 
-5. Click the Export Additional button
+5. Click the **Export Additional** button
 
     .. image:: images/AEPanelAdd4.png
         :alt: Export Additional Button
@@ -133,7 +133,7 @@ _________________
     .. image:: images/AEPanelJSON.png
         :alt: JSON Tab
 
-After exporting the JSON file the JSON tab displays the generated JSON data. You can copy and paste into a text editor or use the 'Save JSON File' button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
+After exporting the JSON file the JSON tab displays the generated JSON data. You can copy and paste into a text editor or use the **Save JSON File** button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
 
 Settings Tab
 _________________
