@@ -3,6 +3,7 @@ Blender Panel Options
 #################
 
 |InstallBIPanel| the Blender Add-on and open Blender if you haven't already. The Blender panel is found in the 3D view 'n' panel.
+This panel has many options and powerful features that are not avaiable thru the simpler method at *File > Import > TrackerJack AE Tracking Data(.json)*
 
  .. image:: images/BPanelFull.png
     :alt: TrackerJack Blender Import Options
