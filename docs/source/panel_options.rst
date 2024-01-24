@@ -7,7 +7,7 @@ _________________
 
 |InstallAEPanel| the UI Panel and open After Effects if you haven't already.
 
-Under the Create tab you have two options - Auto Export and Manual Export. 
+ Under the Create tab you have two options - Auto Export and Manual Export. 
  Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
  Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
 
@@ -36,7 +36,7 @@ There are only two entries to make in order create the initial export of your tr
 
 1. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-2. Copy the *Focal Length* value.
+2. Copy the **Focal Length** value.
 
      .. image:: images/AEManCam1.png
         :alt: Camera Settings Focal Length
@@ -51,7 +51,7 @@ There are only two entries to make in order create the initial export of your tr
 
 5. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-6. Copy the *Angle of View* value.
+6. Copy the **Angle of View** value.
 
 
     .. image:: images/AEManCam2.png
