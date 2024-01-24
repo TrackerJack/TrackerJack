@@ -48,7 +48,7 @@ Add footage and Track
 .. image:: images/AE03-AddItems.gif
   :alt: Add AE Items
         
-Exporting using the TrackerJack Panel
+Export with TrackerJack
 ------------------------------------------
 
 Under the Create tab you have two options - Auto Export and Manual Export. 
@@ -66,7 +66,7 @@ ______________
 
 The alert confirms the filepath of the exported file.
 
-.. tip::
+
 Manual Export
 ______________
 \a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
@@ -78,8 +78,10 @@ ______________
  .. image:: images/AE04-Export.gif
      :alt: Manual Export JSON
 
+
 Blender
 #################
+
 
 #. |Install the Addon| if you haven't already
 
