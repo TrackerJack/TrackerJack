@@ -31,10 +31,10 @@ _________________
 2. The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
 
  .. tip::
-If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file button to manually locate the movie file, or you can usee the **Import without Movie** button.
+    *If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file button to manually locate the movie file, or you can usee the **Import without Movie** button.*
 
- .. image:: images/BPanel_SelectFiles3.png
-    :alt: Select Files Panel Error
+    .. image:: images/BPanel_SelectFiles3.png
+        :alt: Select Files Panel Error
 
 
 
