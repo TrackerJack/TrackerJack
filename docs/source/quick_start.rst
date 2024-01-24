@@ -37,14 +37,13 @@ Add footage and Track
  .. image:: images/AE02-Import.gif
      :alt: Import and Track Footage
         
-Select tracked points and create elements
-------------------------------------------
+3. Select tracked points and create elements
 
-1. Select points and right click to create Origin and Ground
+   \a)Select points and right click to create Origin and Ground
       
-2. Right click to create Solid and Camera.
+   \b)Right click to create Solid and Camera.
       
-3. select additional points to create additional nulls and solids as desired.
+   \c)select additional points to create additional nulls and solids as desired.
 
 .. image:: images/AE03-AddItems.gif
   :alt: Add AE Items
@@ -54,13 +53,16 @@ Export with TrackerJack
 ------------------------------------------
 
 Under the Create tab you have two options - Auto Export and Manual Export. 
+
 Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
+
 Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
 
 Auto Export
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 \a) Make sure to save your After Effects Project into a folder. By default this is where your JSON file is saved. 
+
 \b) In the **Create** tab click the **Auto Export JSON** button.
 
 .. image:: images/AEAutoBut.png
@@ -71,6 +73,7 @@ The alert confirms the filepath of the exported file.
 
 Manual Export
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 \a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
       
 \b) Save the After Effects file.
@@ -87,57 +90,108 @@ Blender
 ======================================================
 
 
-#. |Install the Addon| if you haven't already
+|Install the Addon| if you haven't already
+------------------------------------------
 
-   .. |Install the Addon| raw:: html
+.. |Install the Addon| raw:: html
 
-      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#Blender-Add-on-install-install">Install the Addon</a>
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#Blender-Add-on-install-install">Install the Addon</a>
 
-   * Open Blender and Install.
-   * Locate the TrackerJack zip file
-   * Enable the check box to activate the add-on
+* Open Blender and Install.
+* Locate the TrackerJack zip file
+* Enable the check box to activate the add-on
 
-    .. image:: images/BL00-Install.gif
-        :alt: Install Blender Add-on
+.. image:: images/BL00-Install.gif
+     :alt: Install Blender Add-on
 
-#. Import the JSON data into Blender
+Import the JSON data into Blender
+------------------------------------------
 
-   * Press 'a' to select all, then press 'x' and click the *Delete* button to clear the default elements.
-   * Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
-   * Locate and select the JSON file exported from After Effects. (Adjust settings of panel or use default settings)
+* Press 'a' to select all, then press 'x' and click the *Delete* button to clear the default elements.
+* Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
+* Locate and select the JSON file exported from After Effects. (Adjust settings of panel or use default settings)
 
-    .. image:: images/BL01-Import.gif
-        :alt: Import JSON data
+.. image:: images/BL01-Import.gif
+     :alt: Import JSON data
         
-#. Scale and Rotate the World
+Scale and Rotate the World
+------------------------------------------
 
-   * Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
-   * Press Spacebar to play the timeline (Advancing frames)
-     will update the scene if your pointclould doesn't seem to be aligned.
-   * Select the "World" empty in the Scene Outiner
-   * Press 's' and adjust the scale so the "Human Scale" mesh matches the scale for your scene.
-   * Press 'r' then 'z' and adjust the z rotation so the grid matches your scene.
+* Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
+* Press Spacebar to play the timeline (Advancing frames)
+  will update the scene if your pointclould doesn't seem to be aligned.
+* Select the "World" empty in the Scene Outiner
+* Press 's' and adjust the scale so the "Human Scale" mesh matches the scale for your scene.
+* Press 'r' then 'z' and adjust the z rotation so the grid matches your scene.
 
-    .. image:: images/BL02-ScaleandRotate.gif
-        :alt: Scale and Rotate the World
+ .. image:: images/BL02-ScaleandRotate.gif
+     :alt: Scale and Rotate the World
 
-
+======================================================
 Adding Additional Items
+======================================================
+
+Once you begin modeling your scene in Blender, you may require addtional pointclouds or planes to build out your scene. It is easy to go back to After Effects and create additional layers, append the orginal JSON file, and import them into your Blender scene while maintaining the world scale and rotation you have already set. Each time you click **Export Additional** button the file is updated.
+
+Adding Additional Items - After Effects 
+------------------------------------------
+
+Use the **Add** tab in the TrackerJack panel to add additional items to an existing JSON file.
+.. image:: images/AEPanelAdd.png
+  :alt: TrackerJack Add Tab
+
+Activate the Track points
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Clicking the button **Select 3D Tracker Layer** button which selects the movie layer and then selects the 3D Tracker Effect, activating the track points for selection.
+
+.. image:: images/AEPanelAdd1.png
+  :alt: Select Trackers button
+
+Create more null and solid layers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Once the track points are active you can |select and create new nulls and or solids| in your composition.
+
+.. image:: images/SelectItems.gif
+  :alt: Add Pointcloud Name
+
+.. |select and create new nulls and or solids| raw:: html
+
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/quick_start.rst#select-tracked-points-and-create-elements"select and create new nulls and or solids</a>
+
+Name the new pointcloud
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Enter a name for the new point cloud (new null layers) in the **Name** entry box.
+       
+.. image:: images/AEPanelAdd2.png
+  :alt: Add Pointcloud Name
+
+Layers ( Drop down choice )
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Auto - will export any new layers since the last export
+
+* Selected - will export the layers manually selected in the timeline
+
+.. image:: images/AEPanelAdd3.png
+  :alt: Layer Choice
+
+Export Additional button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Click the **Export Additional** button to update the existing JSON file.
+
+.. image:: images/AEPanelAdd4.png
+  :alt: Export Additional Button
+
+.. tip::
+        You can continue to create additional null layers, name them, and then click Export Additional repeatedly if you want to create more named pointcloud layers before returning to Blender.
 
 
-Once you begin modeling your scene in Blender, you may require addtional pointclouds or planes to build out your scene. It is easy to go back to After Effects and create additional layers, ammend the orginal JSON file, and import them into your Blender scene while maintaining the world scale and rotation you have already set.
-
-#. Adding Additional Items - After Effects 
-
-   * In After Effects you set the frame to the frame number in Blender to see the same footage
-   * Select additional tracking points and create additional solids as desired.
-   * Select the "Add" tab in the TrackerJack Panel
-   * Create a name for the new pointcloud, and click *Export*
-   
-    .. image:: images/BL03-AdditionalItemsAE.gif
-        :alt: Scale and Rotate the World
-
-#. Adding Additional Items - Blender
+Adding Additional Items - Blender
+------------------------------------------
 
    * Go to the File menu and select *TrackerJack AE Tracking Data (.json)* listed by selecting the import command.
    * In the options panel (press 'n' if necessary) select *Option 2 Add Additional Items*
