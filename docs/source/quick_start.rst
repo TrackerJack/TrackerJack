@@ -13,13 +13,13 @@ After Effects
 
 #. Install After Effects Effects Panel
 
-   \a)  |Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
+   \a)|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
    
    .. |Install| raw:: html
 
       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
    
-   \b)  Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
+   \b) Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
    
    \c) Open After Effects Preferences and make sure that "Allow scripts to write files and access network" is enabled.
 
@@ -46,7 +46,30 @@ After Effects
     .. image:: images/AE03-AddItems.gif
         :alt: Add AE Items
         
+#. Exporting using the TrackerJack Panel
 
+Auto Export
+______________
+
+\a) Make sure to save your After Effects Project into a folder. By default this is where your JSON file is saved. 
+\b) In the **Create** tab click the **Auto Export JSON** button.
+
+.. image:: images/AEAutoBut.png
+     :alt: Auto Export JSON
+
+The alert confirms the filepath of the exported file.
+
+.. tip::
+Manual Export
+______________
+\a) Enter the Camera information on the TrackerJack panel. Camera Settings units must be millimeters.
+      
+\b) Save the After Effects file.
+      
+\c) Click the **Manual Export JSON** button on the TrackerJack Panel
+   
+ .. image:: images/AE04-Export.gif
+     :alt: Manual Export JSON
 
 Blender
 #################
