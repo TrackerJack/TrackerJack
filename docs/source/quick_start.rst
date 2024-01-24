@@ -90,12 +90,12 @@ Blender
 ======================================================
 
 
-|Install the Addon| if you haven't already
+|Install the Addon|
 ------------------------------------------
 
 .. |Install the Addon| raw:: html
 
-   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#Blender-Add-on-install-install">Install the Addon</a>
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/#installation.html#blender-add-on-install">Install the Addon</a>
 
 * Open Blender and Install.
 * Locate the TrackerJack zip file
