@@ -37,13 +37,14 @@ Add footage and Track
  .. image:: images/AE02-Import.gif
      :alt: Import and Track Footage
         
-3. Select tracked points and create elements
+Select tracked points and create elements
+------------------------------------------
 
-   \a)Select points and right click to create Origin and Ground
+1. Select points and right click to create Origin and Ground
       
-   \b)Right click to create Solid and Camera.
+2. Right click to create Solid and Camera.
       
-   \c)select additional points to create additional nulls and solids as desired.
+3. select additional points to create additional nulls and solids as desired.
 
 .. image:: images/AE03-AddItems.gif
   :alt: Add AE Items
