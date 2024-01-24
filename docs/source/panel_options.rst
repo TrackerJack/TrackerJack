@@ -19,14 +19,12 @@ Under the Create tab you have two options - Auto Export and Manual Export.
       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
       
 
-
-
 Auto Export
 _________________
-x. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
+1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
    You can also save to a custom file location (Settings > JSON Save Location > User Selection) 
 
-x. Click the Auto Export Button.
+2. Click the Auto Export Button.
 
      .. image:: images/AEAutoBut.png
         :alt: Auto Export Button
@@ -36,9 +34,9 @@ Manual Export
 _________________
 There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View boxes which can be copied from the Camera Settings panel.
 
-x. Double click on the 3D Tracker Camera layer in the comp timeline.
+1. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-x. Copy the Focal Length value.
+2. Copy the *Focal Length* value.
 
      .. image:: images/AEManCam1.png
         :alt: Camera Settings Focal Length
@@ -53,7 +51,7 @@ x. Copy the Focal Length value.
 
 5. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-6. Copy the Angle of View value.
+6. Copy the *Angle of View* value.
 
 
     .. image:: images/AEManCam2.png
