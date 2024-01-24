@@ -92,7 +92,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
 Select 3D Tracker Layer button
 _________________
 
-This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
+This is a shortcut. Clicking the button selects the movie layer and then selects the 3D Tracker Effect, which activates the track points for selection. This saves time scrolling in a timeline with hundreds of layers.
 
 .. image:: images/AEPanelAdd1.png
   :alt: Select Trackers button
