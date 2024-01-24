@@ -45,11 +45,12 @@ Import Options Panel
 Import Settings (Drop Down Choice)
 _________________
 
+.. image:: images/BPanel_ImportOpts1.png
+    :alt: Import Type
 
-
- * 1. Import AE Scene - This is the default setting, to be used for the first import of a JSON file to set up your scene.
+* 1. Import AE Scene - This is the default setting, to be used for the first import of a JSON file to set up your scene.
    
- * 2. Add Additional Tracked Items - Use this setting to update your scene with any with additional items you create in After Effects.
+* 2. Add Additional Tracked Items - Use this setting to update your scene with any with additional items you create in After Effects.
  
 
 Point Cloud
