@@ -40,40 +40,39 @@ There are only two entries to make in order create the initial export of your tr
 
 2. Copy the **Focal Length** value.
 
-     .. image:: images/AEManCam1.png
-        :alt: Camera Settings Focal Length
+.. image:: images/AEManCam1.png
+  :alt: Camera Settings Focal Length
         
 3. Click Cancel to close the panel
 
 4. Paste the value into the TrackerJack **Focal Length** field.
 
-    .. image:: images/AEManPan1.png
-        :alt: TrackerJack Focal Length
+.. image:: images/AEManPan1.png
+  :alt: TrackerJack Focal Length
 
 
 5. Double click on the 3D Tracker Camera layer in the comp timeline.
 
 6. Copy the **Angle of View** value.
 
-
-    .. image:: images/AEManCam2.png
-        :alt: Camera Setting Angle of View
+.. image:: images/AEManCam2.png
+  :alt: Camera Setting Angle of View
 
 7. Click Cancel to close the panel
 
 8. Paste the value into the TrackerJack **Angle of View** field.
 
-    .. image:: images/AEManPan2.png
-        :alt: TrackerJack Angle of View
+.. image:: images/AEManPan2.png
+  :alt: TrackerJack Angle of View
         
 9. Make sure that you have saved your After Effects file.
 
 10. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
-    .. image:: images/AEManBut.png
-        :alt: Manual Export Button
+.. image:: images/AEManBut.png
+  :alt: Manual Export Button
 
-   The JSON file is named *{Your Project File Name}_{The Comp Name}_TrackerJack.json* You can track one camera for each composition in your Project file.
+The JSON file is named *{Your Project File Name}_{The Comp Name}_TrackerJack.json* You can track one camera for each composition in your Project file.
 
 .. tip::
         By default TrackerJack will export the JSON file for Blender to the same location where you've saved the After Effects Project File. When TrackerJack imports your footage into Blender, it first looks for the movie file wherever it was orginally located when imported into After Effects. If the file has moved, it will then look for it in the same folder as the JSON file. The easiest method to avoid issues is to keep your footage file, AE project file, and JSON file in the same folder.
@@ -82,49 +81,46 @@ There are only two entries to make in order create the initial export of your tr
 ======================================================
 Add Tab
 ======================================================
-
-    .. image:: images/AEPanelAdd.png
-        :alt: TrackerJack Add Tab
+.. image:: images/AEPanelAdd.png
+  :alt: TrackerJack Add Tab
 
 Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click **Export Additional** button the file is updated. 
 
 Select 3D Tracker Layer button
 _________________
 
- This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
+This is the shortcut to selecting the movie layer and the 3D Tracker Effect, which activates the track points for selection.
+.. image:: images/AEPanelAdd1.png
+  :alt: Select Trackers button
 
-
-    .. image:: images/AEPanelAdd1.png
-        :alt: Select Trackers button
-
-  Once the track points are active you can create new nulls and or solids in your composition.
-    .. image:: images/SelectItems.gif
-        :alt: Add Pointcloud Name
+Once the track points are active you can create new nulls and or solids in your composition.
+.. image:: images/SelectItems.gif
+  :alt: Add Pointcloud Name
 
 Name ( Entry Box )
 _________________
 
- Enter a name for the new point cloud (new null layers) in the **Name** box.
+Enter a name for the new point cloud (new null layers) in the **Name** box.
  
-    .. image:: images/AEPanelAdd2.png
-        :alt: Add Pointcloud Name
+.. image:: images/AEPanelAdd2.png
+  :alt: Add Pointcloud Name
 
 Layers ( Drop down choice )
 _________________
 
-   * Auto - will export any new layers since the last export
-   
-   * Selected - will export the layers manually selected in the timeline
-    
-    .. image:: images/AEPanelAdd3.png
-        :alt: Layer Choice
+* Auto - will export any new layers since the last export
+
+* Selected - will export the layers manually selected in the timeline
+
+.. image:: images/AEPanelAdd3.png
+  :alt: Layer Choice
 
 Export Additional button
 _________________
- Click the **Export Additional** button to update the existing JSON file.
+Click the **Export Additional** button to update the existing JSON file.
 
-    .. image:: images/AEPanelAdd4.png
-        :alt: Export Additional Button
+.. image:: images/AEPanelAdd4.png
+  :alt: Export Additional Button
 
 .. tip::
         You can continue to create additional null layers, name them, and then click Export Additional repeatedly if you want to create more named pointcloud layers before returning to Blender.
@@ -132,18 +128,16 @@ _________________
 ======================================================
 Info Tab
 ======================================================
-
-    .. image:: images/AEPanelInfo.png
-        :alt: Info Tab
+.. image:: images/AEPanelInfo.png
+  :alt: Info Tab
 
 After exporting the JSON file the Info tab displays detailed information about your comp and project, which can be useful for troubleshooting any issues.
 
 ======================================================
 JSON Tab
 ======================================================
-
-    .. image:: images/AEPanelJSON.png
-        :alt: JSON Tab
+.. image:: images/AEPanelJSON.png
+  :alt: JSON Tab
 
 After exporting the JSON file the JSON tab displays the generated JSON data. You can copy and paste into a text editor or use the **Save JSON File** button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
 
@@ -151,25 +145,22 @@ After exporting the JSON file the JSON tab displays the generated JSON data. You
 ======================================================
 Settings Tab
 ======================================================
-
-
-    .. image:: images/AEPanelSettings.png
-        :alt: Info Tab
+.. image:: images/AEPanelSettings.png
+  :alt: Info Tab
 
 There are a few options to change the method of operation for TrackerJack in the Settings Panel.
 
 JSON Save Location
 _________________
+.. image:: images/AESettingsSave.png
+  :alt: JSON Tab
 
-    .. image:: images/AESettingsSave.png
-        :alt: JSON Tab
 
+You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
 
- You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
-
-   * Default - will export to the same folder where your After Effects project is saved.
+* Default - will export to the same folder where your After Effects project is saved.
    
-   * User Selection - After you click export you can choose where to save the JSON file.
+* User Selection - After you click export you can choose where to save the JSON file.
 
 
 Frame Export (Drop down choice)
@@ -177,12 +168,12 @@ _________________
 
 This determines how After Effects layer animation is written to the JSON file
 
-    .. image:: images/AESettingsFrame.png
-        :alt: Frame Export Choice
+.. image:: images/AESettingsFrame.png
+  :alt: Frame Export Choice
 
-   * Keyframes Only - Only the actual layer keys are exported. Use with linear or Bezier interpolation
+* Keyframes Only - Only the actual layer keys are exported. Use with linear or Bezier interpolation
    
-   * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
+* Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
 
 
 JSON filepath
@@ -190,7 +181,7 @@ _________________
 
 If you chose 'User Selection' you may need to select your JSON file here in order to add additional items. When generating a new JSON file this is unnessary (Auto Export or Manual Export). When using the Add Tab TrackerJack looks either in the folder where your Project is or at this field. If your JSON file is not in the project folder and this field is empty, you'll get an error.
 
-    .. image:: images/AESettingsFilepath.png
-        :alt: JSON filepath
+.. image:: images/AESettingsFilepath.png
+  :alt: JSON filepath
 
 
