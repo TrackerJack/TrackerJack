@@ -5,10 +5,10 @@ Blender Panel Options
 |InstallBIPanel| the Blender Add-on and open Blender if you haven't already. The Blender panel is found in the 3D view 'n' panel.
 This panel has many options and powerful features that are not avaiable thru the simpler method at *File > Import > TrackerJack AE Tracking Data(.json)*
 
- .. image:: images/BPanelFull.png
+.. image:: images/BPanelFull.png
     :alt: TrackerJack Blender Import Options
       
- .. |InstallBIPanel| raw:: html
+.. |InstallBIPanel| raw:: html
 
        <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#blender-add-on-install">Install</a>
 
@@ -20,9 +20,24 @@ Select Files Panel
 Select TrackerJack JSON File button
 _________________
 
-    .. image:: images/BPanel_SelectFiles1.png
-        :alt: Select Files Panel
- 
+.. image:: images/BPanel_SelectFiles1.png
+    :alt: Select Files Panel
+
+Click the button and locate the TrackerJack JSON file you exported from After Effects.
+
+.. image:: images/BPanel_SelectFiles2.png
+    :alt: Select Files Panel
+The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
+
+ .. tip::
+ .. image:: images/BPanel_SelectFiles3.png
+    :alt: Select Files Panel
+
+
+======================================================
+Import Options
+======================================================
+
  * 1. Import AE Scene - This is the default setting, to be used for the first import of a JSON file to set up your scene.
    
  * 2. Add Additional Tracked Items - Use this setting to update your scene with any with additional items you create in After Effects.
