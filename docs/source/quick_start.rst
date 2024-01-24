@@ -8,45 +8,52 @@ Quick Start
 
    <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">Video Link</a>
    
+======================================================
 After Effects
-#################
+======================================================
 
-#. Install After Effects Effects Panel
-
-   \a)|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
+Install After Effects Effects Panel
+------------------------------------------
+1.|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  (After Effects > Scripts > ScriptUI Panels) 
    
-   .. |Install| raw:: html
+.. |Install| raw:: html
 
-      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
    
-   \b) Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
+2. Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
    
-   \c) Open After Effects Preferences and make sure that "Allow scripts to write files and access network" is enabled.
+3. Open After Effects Preferences and make sure that "Allow scripts to write files and access network" is enabled.
 
-    .. image:: images/AE01-Install.gif
-        :alt: Install AE Panel
+ .. image:: images/AE01-Install.gif
+     :alt: Install AE Panel
         
-#. Add footage and Track
+Add footage and Track
+------------------------------------------
 
-   \a) Add footage and create a composition.
+1. Add footage and create a composition.
    
-   \b) Use Effects > 3D Camera Tracker on the footage layer in your composition.
+2. Use Effects > 3D Camera Tracker on the footage layer in your composition.
 
-    .. image:: images/AE02-Import.gif
-        :alt: Import and Track Footage
+ .. image:: images/AE02-Import.gif
+     :alt: Import and Track Footage
         
-#. Select tracked points and create elements
+3. Select tracked points and create elements
 
-   \a) Select points and right click to create Origin and Ground
-   
-   \b) Right click to create Solid and Camera.
-   
-   \c) Select additional points to create additional nulls and solids as desired.
+   \a)Select points and right click to create Origin and Ground
+      
+   \b)Right click to create Solid and Camera.
+      
+   \c)select additional points to create additional nulls and solids as desired.
 
-    .. image:: images/AE03-AddItems.gif
-        :alt: Add AE Items
+.. image:: images/AE03-AddItems.gif
+  :alt: Add AE Items
         
-#. Exporting using the TrackerJack Panel
+Exporting using the TrackerJack Panel
+------------------------------------------
+
+Under the Create tab you have two options - Auto Export and Manual Export. 
+Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
+Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
 
 Auto Export
 ______________
