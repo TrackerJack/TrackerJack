@@ -36,38 +36,41 @@ Manual Export
 _________________
 There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View fields which can be copied from the Camera Settings panel.
 
-1. Double click on the 3D Tracker Camera layer in the comp timeline.
+x. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
+   You can also save to a custom file location *(Settings > JSON Save Location > User Selection)* 
 
-2. Copy the **Focal Length** value.
+x. Double click on the 3D Tracker Camera layer in the comp timeline.
+
+x. Copy the **Focal Length** value.
 
 .. image:: images/AEManCam1.png
   :alt: Camera Settings Focal Length
         
-3. Click Cancel to close the panel
+x. Click Cancel to close the panel
 
-4. Paste the value into the TrackerJack **Focal Length** field.
+x. Paste the value into the TrackerJack **Focal Length** field.
 
 .. image:: images/AEManPan1.png
   :alt: TrackerJack Focal Length
 
 
-5. Double click on the 3D Tracker Camera layer in the comp timeline.
+x. Double click on the 3D Tracker Camera layer in the comp timeline.
 
-6. Copy the **Angle of View** value.
+x. Copy the **Angle of View** value.
 
 .. image:: images/AEManCam2.png
   :alt: Camera Setting Angle of View
 
-7. Click Cancel to close the panel
+x. Click Cancel to close the panel
 
-8. Paste the value into the TrackerJack **Angle of View** field.
+x. Paste the value into the TrackerJack **Angle of View** field.
 
 .. image:: images/AEManPan2.png
   :alt: TrackerJack Angle of View
         
-9. Make sure that you have saved your After Effects file.
+x. Make sure that you have saved your After Effects file.
 
-10. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
+x. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
 .. image:: images/AEManBut.png
   :alt: Manual Export Button
