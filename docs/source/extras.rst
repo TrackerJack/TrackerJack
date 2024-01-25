@@ -122,6 +122,11 @@ Although there are many more features when using the TrackerJack 'n' panel in th
     :alt: File Import
 
 • Tap the n key to display the **Import Options**
+• Choose the appropriate settings and click the **Import** button.
 
 .. image:: images/BImport2.png
     :alt: File Import Options
+
+ .. tip::
+        This method is only reccomended for users who have no issues with file paths (different Windows systems, network drives, or unsual naming conventions can make file path resolution inconsisitent).
+        If you have errors using this, you should instead use the TrackerJack panel in order to verify filepaths and other error checks availble in the full user interface.
