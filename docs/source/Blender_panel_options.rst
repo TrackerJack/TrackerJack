@@ -128,11 +128,21 @@ TrackerJack Supports the import and use of vertical or portrait orientation vide
 • Click the **Vertical Video Correction** button and the video will automatically be rotated to match your scene.
 
 .. image:: images/BlenderVerticalVideo.gif
-    :alt: Vertica Video Button
+    :alt: Vertical Video Button
 
 Set KeyFrame Interpolation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-When you import After Effects layers that have postion and orientation key frame animation, TrackerJack automatically uses Linear interpolation for those key frames. You can change this to any other interpolation that Blender supports by selecting the layer then clicking the **Set Keyframe Interpolation** button. A pop up menu will appear and you can apply the new interpolation mode.
+When you import After Effects layers that have postion and orientation key frame animation, TrackerJack automatically uses Linear interpolation for those key frames. 
+
+• You can change this to any other interpolation that Blender supports by selecting the layer then clicking the **Set Keyframe Interpolation** button. 
+
+.. image:: images/Blender Panel - KeyFrame Interpolation.png
+    :alt: Interpolation 1
+
+• A pop up menu will appear and you can apply the new interpolation mode.
+
+.. image:: images/Blender Panel - KeyFrame Interpolation2.png
+    :alt: Interpolation 2
 
  .. tip::
         When using easing or any complex animation in After Effects, it's better to use the **Bake All Frames** option in the |After Effects TrackerJack Settings Panel| to create keys for every frame of animation. 
