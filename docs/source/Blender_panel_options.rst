@@ -65,7 +65,7 @@ The null layers in your After Effects file can be imported into Blender as verti
 2. **Empty** - You may import each null as a Blender Empty, but it is considerably slower. It may take several minutes to complete.
 
 .. image:: images/BPanel_ImportOpts2.png
-        :alt: TrackerJack Import Pointcloud
+        :alt: TrackerJack Pointcloud Type
 
 
 Start Frame Adjust
@@ -78,7 +78,7 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
 **Movie Only** - Click Enable if you want to adjust the movie start independent of the tracked camera. (Uncommon for most uses)
 
 .. image:: images/BPanel_ImportOpts3.png
-    :alt: TrackerJack Import Frame Start
+    :alt: Start Frame Adjust
         
  .. tip::
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
@@ -91,7 +91,7 @@ This setting is enabled by defaut. TrackerJack creates a very simple Compositor 
 **Enable** - If checked the compositor will be enabled.  If unchecked the compositor will not be enabled.
 
 .. image:: images/BPanelCompositor.png
-    :alt: TrackerJack Import Compositior Setup
+    :alt: Compositior Setup
         
 
 Import Scene Button
@@ -102,13 +102,15 @@ Import Scene Button
 • The button is enabled and appears as **Import Scene** when both the TrackerJack JSON filepath and Movie filepath are verified.
 
 .. image:: images/BPanelImportScene.png
-    :alt: TrackerJack Import Scene Button
+    :alt: Import Scene Button
 
 Reset Scene Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sometimes, you may import a scene, then decide to make changes such as **Adjust Start Frame** the **Reset Scene - Delete Everything** button is a quick way of deleting all items in the scene and any orphaned data.
 
+.. image:: images/BPanelResetScene.png
+    :alt: Reset Scene Button
 ======================================================
 Scene Options Panel
 ======================================================
