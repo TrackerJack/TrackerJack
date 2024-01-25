@@ -174,14 +174,15 @@ Clicking the button **Select 3D Tracker Layer** button which selects the movie l
 Create more null and solid layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once the track points are active you can |select and create new nulls and or solids| in your composition.
+Once the track points are active you can select and create new nulls and or solids in your composition. |Review Steps|
 
 .. image:: images/SelectItems.gif
      :alt: Add Pointcloud Name
 
-.. |select and create new nulls and or solids| raw:: html
+.. |Review Steps| raw:: html
 
-   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/quick_start.rst#select-tracked-points-and-create-elements"select and create new nulls and or solids</a>
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/quick_start.rst#select-tracked-points-and-create-elements"Review Steps</a>
+
 
 Name the new pointcloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
