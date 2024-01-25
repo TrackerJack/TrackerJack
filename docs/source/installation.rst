@@ -37,7 +37,7 @@ Blender Add-on Install
 #. This will open a file dialog. Navigate to where you have downloaded the **TrackerJack.zip** file.  This file should not be unzipped.
 #. Then, click the *Install add-on from file* button.
 #. Search for the add-on by typing **TrackerJack** in the search box if it does not already appear.
-#. Make sure the checkbox next to the Add-on (**Import-Export: TrackerJack**) is checked:
+#. Make sure the checkbox next to the Add-on (**3D View: TrackerJack**) is checked:
 
 .. image:: images/BlenderInstall.gif
   :alt: TrackerJack Addon Installed
