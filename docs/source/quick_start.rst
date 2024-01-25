@@ -174,20 +174,20 @@ Clicking the button **Select 3D Tracker Layer** button which selects the movie l
 Create more null and solid layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Once the track points are active you can select and create new nulls and or solids in your composition. |Review Steps|
+• Once the track points are active you can |select and create new nulls and or solids| in your composition.
 
 .. image:: images/SelectItems.gif
      :alt: Add Pointcloud Name
 
-.. |Review Steps| raw:: html
+.. |select and create new nulls and or solids| raw:: html
 
-   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/quick_start.rst#select-tracked-points-and-create-elements"Review Steps</a>
+   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/quick_start.rst#select-tracked-points-and-create-elements">select and create new nulls and or solids</a>
 
 
 Name the new pointcloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enter a name for the new point cloud (new null layers) in the **Name** entry box.
+• Enter a name for the new point cloud (new null layers) in the **Name** entry box.
        
 .. image:: images/AEPanelAdd2.png
   :alt: Add Pointcloud Name
@@ -217,17 +217,16 @@ Click the **Export Additional** button to update the existing JSON file.
 Blender - import more
 ------------------------------------------
 .. tip::
-
-Always save your Blender file before updating.
+        Always save your Blender file before updating.
 
 Verify Filepaths and Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In the **Select Files** section of the TrackerJack Blender Paenl make sure the **TrackerJack JSON file** and **Movie File** entry boxes display the correct filepaths.
+• In the **Select Files** section of the TrackerJack Blender Paenl make sure the **TrackerJack JSON file** and **Movie File** entry boxes display the correct filepaths.
 
 .. image:: images/BPanel_SelectFiles2.png
    :alt: Select Files Filepaths
 
-If they are empty click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
+• If they are empty click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
 
 Under **Import Settings** make sure the option ****2. Add Additional Tracked Items** is the option selected.
 
@@ -236,7 +235,7 @@ Under **Import Settings** make sure the option ****2. Add Additional Tracked Ite
 
 Update Scene
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Click the **Import Scene** button.
+• Click the **Import Scene** button.
 
 .. image:: images/BPanelImportScene.png
    :alt: Select Files Filepaths
