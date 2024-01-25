@@ -136,12 +136,12 @@ When you import After Effects layers that have postion and orientation key frame
 
 • You can change this to any other interpolation that Blender supports by selecting the layer then clicking the **Set Keyframe Interpolation** button. 
 
-.. image:: images/Blender Panel - KeyFrame Interpolation.png
+.. image:: images/BlenderKeyFrameInterpolation.png
     :alt: Interpolation 1
 
 • A pop up menu will appear and you can apply the new interpolation mode.
 
-.. image:: images/Blender Panel - KeyFrame Interpolation2.png
+.. image:: images/BlenderKeyFrameInterpolation2.png
     :alt: Interpolation 2
 
  .. tip::
