@@ -94,7 +94,7 @@ Blender
 Install the Blender Addon
 ------------------------------------------
 
-|InstallBIPanel| the Blender Add-on and open Blender if you haven't already. The Blender panel is found in the 3D view 'n' panel.
+Oopen Blender and |InstallBIPanel| the Blender Add-on if you haven't already. The Blender panel is found in the 3D view 'n' panel.
 This panel has many options and powerful features that are not avaiable thru the simpler method at *File > Import > TrackerJack AE Tracking Data(.json)*
 
 .. image:: images/BL00-Install.gif
