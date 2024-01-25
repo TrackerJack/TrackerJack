@@ -40,9 +40,9 @@ Add footage and Track
         
 3. Select tracked points and create elements
 
-   \a) Select points and right click and create **Set Ground Plane and Origin**
+   \a) Select points and right click and choose **Set Ground Plane and Origin**
       
-   \b) Right click again and create **Create Solid and Camera**.
+   \b) Right click again and choose **Create Solid and Camera**.
       
    \c) select additional points to create additional nulls and solids as desired.
 
