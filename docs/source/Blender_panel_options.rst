@@ -127,14 +127,33 @@ TrackerJack Supports the import and use of vertical or portrait orientation vide
 
 • Click the **Vertical Video Correction** button and the video will automatically be rotated to match your scene.
 
-.. image:: images/BPanel_SceneOpts1.png
+.. image:: images/BlenderVerticalVideo.gif
     :alt: Vertica Video Button
 
-Reset Scene Button
+Set KeyFrame Interpolation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Reset Scene Button
+When you import After Effects layers that have postion and orientation key frame animation, TrackerJack automatically uses Linear interpolation for those key frames. You can change this to any other interpolation that Blender supports by selecting the layer then clicking the **Set Keyframe Interpolation** button. A pop up menu will appear and you can apply the new interpolation mode.
+
+ .. tip::
+        When using easing or any complex animation in After Effects, it's better to use the **Bake All Frames** option in the |After Effects TrackerJack Settings Panel| to create keys for every frame of animation. 
+
+.. |After Effects TrackerJack Settings Panel| raw:: html
+
+       <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/panel_options.rst#frame-export-drop-down-choice">After Effects TrackerJack Settings Panel</a>
+
+
+Add Eevee Shadow Catcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Reset Scene Button
+The **Eevee Shadow Catcher** is a bonus feature. There are two ways to use it. 
+
+• Any solid layer that you rename "Shadow" in After Effects before exporting, will automatically have the "ShadowCatcher" material appplied to the layer when it is imported into Blender.
+• Select a mesh layer in your scene. In Object mode click the **Add Eevee Shadow Catcher** button. The "ShadowCatcher" material will be appplied.
+
+ .. tip::
+        The ShadowCatcher material requires adjusting the color ramp and subtract nodes in order to match your scene. See the chapter in the Quick Start video.
+
+
+Fake HDRI button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ======================================================
 Help Panel
