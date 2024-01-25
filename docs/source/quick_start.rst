@@ -215,17 +215,20 @@ Click the **Export Additional** button to update the existing JSON file.
 
 Blender - import more
 ------------------------------------------
+.. tip::
+
+Always save your Blender file before updating.
 
 Verify Filepaths and Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
+In the **Select Files** section of the TrackerJack Blender Paenl make sure the **TrackerJack JSON file** and **Movie File** entry boxes display the correct filepaths.
 
 .. image:: images/BPanel_SelectFiles2.png
    :alt: Select Files Filepaths
 
 If they are empty click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
 
-Under **Import Settings** make sure the option ****Add Additional Tracked Items** is selected.
+Under **Import Settings** make sure the option ****2. Add Additional Tracked Items** is the option selected.
 
 .. image:: images/BPanel_ImportOpts1.png
     :alt: Import Type
