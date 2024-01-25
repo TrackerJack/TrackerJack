@@ -53,11 +53,11 @@ Add footage and Track
 Export with TrackerJack
 ------------------------------------------
 
-Under the Create tab you have two options - Auto Export and Manual Export. 
+Under the **Create** tab you have two options - Auto Export and Manual Export. 
 
-Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
+**Auto Export** is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
 
-Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
+**Manual Export** is as a backup in case of the unlikely case that Auto Export fails.
 
 Auto Export
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
