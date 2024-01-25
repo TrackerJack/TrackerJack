@@ -4,6 +4,7 @@ Quick Start
 
 Watch the full quick start video |here|.
 
+
 .. |here| raw:: html
 
    <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
@@ -139,12 +140,12 @@ Import the JSON file into Blender
 Scale and Rotate the World
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
-* Press Spacebar to play the timeline (Advancing frames)
+1. Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
+2. Press Spacebar to play the timeline (Advancing frames)
   will update the scene if your pointclould doesn't seem to be aligned.
-* Select the "World" empty in the Scene Outiner
-* Press 's' and adjust the scale so the "Human Scale" mesh matches the scale for your scene.
-* Press 'r' then 'z' and adjust the z rotation so the grid matches your scene.
+3. Select the "World" empty in the Scene Outiner
+4. Press 's' and adjust the scale so the "Human Scale" mesh matches the scale for your scene.
+5. Press 'r' then 'z' and adjust the z rotation so the grid matches your scene.
 
  .. image:: images/BL02-ScaleandRotate.gif
      :alt: Scale and Rotate the World
@@ -158,7 +159,7 @@ Once you begin modeling your scene in Blender, you may require addtional pointcl
 After Effects - add more
 ------------------------------------------
 
-Use the **Add** tab in the TrackerJack panel to add additional items to an existing JSON file.
+• Use the **Add** tab in the TrackerJack panel to add additional items to an existing JSON file.
 
 .. image:: images/AEPanelAdd.png
      :alt: TrackerJack Add Tab
@@ -166,7 +167,7 @@ Use the **Add** tab in the TrackerJack panel to add additional items to an exist
 Activate the Track points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Clicking the button **Select 3D Tracker Layer** button which selects the movie layer and then selects the 3D Tracker Effect, activating the track points for selection.
+• Clicking the button **Select 3D Tracker Layer** button which selects the movie layer and then selects the 3D Tracker Effect, activating the track points for selection.
 
 .. image:: images/AEPanelAdd1.png
      :alt: Select Trackers button
@@ -205,7 +206,7 @@ Layers ( Drop down choice )
 Export Additional button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Click the **Export Additional** button to update the existing JSON file.
+• Click the **Export Additional** button to update the existing JSON file.
 
 .. image:: images/AEPanelAdd4.png
   :alt: Export Additional Button
