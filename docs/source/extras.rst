@@ -9,7 +9,13 @@ One important feature that was part of TrackerJack's design from the start is th
 Begining with TrackerJack 2.0 - animated nulls and solids are transferred with their position and orientation animation intact. You can motion track a object in your movie, attact the tracker to a null and have it brought into your 3D Blender scene and to replace with a 3D model.
 
 .. tip::
-        TrackerJack does not export animation 
+        TrackerJack does not layer animation that is based on expressions, it must be keyframed. If you have a layer that uses expressions for position, orientation, or rotation make sure to select the layer then use the After Effects command *Animation > Keyframe Assitant > Convert Expression to Keyframes* to convert the layer before exporting with TrackerJack. 
+
+    .. image:: images/AEExpressionAnimation.png
+        :alt: Expression Animation
+
+    .. image:: images/AEKeyframeAnimation.png
+        :alt: Keyframe Animation
 
 Setup Compositor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
