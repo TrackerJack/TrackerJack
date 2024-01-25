@@ -86,7 +86,7 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
 Setup Compositor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This setting is enabled by defaut. TrackerJack creates a very simple Compositor setup so you're ready to render your created items with the background footage. Leaving this checkbox unchecked will skip this setup.
+This setting is enabled by default. TrackerJack creates a very simple Compositor setup so you're ready to render your created items with the background footage. Leaving this checkbox unchecked will skip this setup.
 
 **Enable** - If checked the compositor will be enabled.  If unchecked the compositor will not be enabled.
 
