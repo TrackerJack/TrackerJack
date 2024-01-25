@@ -90,6 +90,7 @@ Every purchase is a show of appreciation for the hard work and dedication necess
 Technical Support
 ---------------------------------
 If you have any issues please reach out for assistance at use the "Contact Creator" button at |Blender Market Contact Page|
+
 Verified purchases thru Blender Market have access to customer support and free upgrades.
 
 .. |Blender Market Contact Page| raw:: html
