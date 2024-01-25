@@ -5,9 +5,9 @@ Quick Start
 Watch the full quick start video |here|.
 
 
-.. |here| raw:: html
-
-   <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
+   .. |here| raw:: html
+   
+      <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
    
 ======================================================
 After Effects
@@ -17,9 +17,9 @@ Install After Effects Effects Panel
 ------------------------------------------
 1.|Install| TrackerJack_AE-2.00.jsxbin to your After Effects ScriptUI Panels folder and if you haven't already.  *(path_to_After_Effects_Applicaiton_folder) > Scripts > ScriptUI Panels* 
    
-.. |Install| raw:: html
-
-   <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
+   .. |Install| raw:: html
+   
+      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/installation.html#after-effects-panel-install">Install</a>
    
 2. Open After Effects, and launch the TrackerJack Panel via the Windows Menu (Windows > TrackerJack_AE-2.00.jsxbin)
    
