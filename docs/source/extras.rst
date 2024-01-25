@@ -111,3 +111,17 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
  .. tip::
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
 
+Alternate Import Workflow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Although there are many more features when using the TrackerJack 'n' panel in the 3D View, the original method of import is maintained. 
+
+• From the Blender Menu commands *File > Import > TrackerJack AE Tracking Data (.json)*
+
+.. image:: images/BImport1.png
+    :alt: File Import
+
+• Tap the n key to display the **Import Options**
+
+.. image:: images/BImport2.png
+    :alt: File Import Options
