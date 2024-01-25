@@ -2,10 +2,16 @@
 Bonus Features
 #####################################
 
+Speed and Ease of use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TrackerJack was designed to quickly import a 3D Camera Tracked Movie into Blender that could be scaled and aligned with ease. Allowing you to spend your time modeling and rendering. Since it's initial release more features have been added with the idea of saving time, and allowing you to quickly render quality scenes. 
 
+Fexible workflow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 One important feature that was part of TrackerJack's design from the start is the ability, to track and export from After Effects, import and work in Blender, then decide that more tracker points or solids are needed and be able to go back to After Effects, create more layers and update the existing Blender scene without having to start over.
 
+Animated Layers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Begining with TrackerJack 2.0 - animated nulls and solids are transferred with their position and orientation animation intact. You can motion track a object in your movie, attact the tracker to a null and have it brought into your 3D Blender scene and to replace with a 3D model.
 
 .. tip::
