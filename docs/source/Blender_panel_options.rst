@@ -18,24 +18,24 @@ Select Files Panel
 ======================================================
 
 Select TrackerJack JSON File button
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 1. Click the **Select TrackerJack JSON File** button and locate the TrackerJack JSON file you exported from After Effects.
 
-    .. image:: images/BPanel_SelectFilesbutton.png
-        :alt: Select Files Button
+.. image:: images/BPanel_SelectFilesbutton.png
+    :alt: Select Files Button
 
 2. The **TrackerJack JSON file** and **Movie File** entry boxes should be display the correct filepaths.
 
-    .. image:: images/BPanel_SelectFiles2.png
-        :alt: Select Files Filepaths
+.. image:: images/BPanel_SelectFiles2.png
+    :alt: Select Files Filepaths
 
 .. tip::
     If the Movies File entry box is empty, Blender had a problem resolving the filepath. You can either use the file **button** to manually locate the movie file, or you can use the **Import Scene without Movie** button.
 
-    .. image:: images/BPanel_SelectFiles3.png
-        :alt: Select Files Panel Error
+.. image:: images/BPanel_SelectFiles3.png
+    :alt: Select Files Panel Error
 
 
 ======================================================
@@ -43,7 +43,7 @@ Import Options Panel
 ======================================================
 
 Import Settings (Drop Down Choice)
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/BPanel_ImportOpts1.png
     :alt: Import Type
@@ -54,7 +54,7 @@ _________________
  
 
 Point Cloud
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/BPanel_ImportOpts2.png
         :alt: TrackerJack Import Pointcloud
@@ -67,7 +67,7 @@ The null layers in your After Effects file can be imported into Blender as verti
 
 
 Start Frame Adjust
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/BPanel_ImportOpts3.png
     :alt: TrackerJack Import Frame Start
@@ -82,7 +82,7 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
 
 Setup Compositor
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/BPanelCompositor.png
     :alt: TrackerJack Import Compositior Setup
@@ -93,7 +93,7 @@ This setting is enabled by defaut. TrackerJack creates a very simple Compositor 
 
 
 Import Scene Button
-_________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 • The button is disabled and appears as **Select Files First** until a TrackerJack JSON file has been selected in the **Select Files** panel.
 • The button is enabled and appears as **Import Scene without Movie** when a TrackerJack JSON filepath is verified but the **Movie File** is missing. You can proceed and import all tracked items and camera without the movie, or use the **Movie File** button to locate the movie.
@@ -101,3 +101,17 @@ _________________
 
 .. image:: images/BPanelImportScene.png
     :alt: TrackerJack Import Scene Button
+
+Reset Scene Button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes, you may import a scene, then decide to make changes such as **Adjust Start Frame** the **Reset Scene - Delete Everything** button is a quick way of deleting all items in the scene and any orphaned data.
+
+======================================================
+Scene Options Panel
+======================================================
+
+
+======================================================
+Help Panel
+======================================================
