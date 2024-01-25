@@ -21,7 +21,7 @@ Manual Export exists as a backup in the unlikely instance where Auto Export fail
       
 
 Auto Export
-_________________
+------------------------------------------
 
 1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
    You can also save to a custom file location *(Settings > JSON Save Location > User Selection)* 
@@ -33,7 +33,7 @@ _________________
 
 
 Manual Export
-_________________
+------------------------------------------
 Two use Manual Export you must fill in the values for Focal Length and Angle of View fields which can be copied from the Camera Settings panel.
 
 1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
@@ -94,7 +94,7 @@ Once you've created your scene in Blender and begun modeling, you may decide to 
 
 
 Select 3D Tracker Layer button
-_________________
+------------------------------------------
 
 This is a shortcut. Clicking the button selects the movie layer and then selects the 3D Tracker Effect, which activates the track points for selection. This saves time scrolling in a timeline with hundreds of layers.
 
@@ -107,7 +107,7 @@ Once the track points are active you can create new nulls and or solids in your 
         :alt: Add Pointcloud Name
 
 Name ( Entry Box )
-_________________
+------------------------------------------
 
 Enter a name for the new point cloud (new null layers) in the **Name** box.
  
@@ -115,7 +115,7 @@ Enter a name for the new point cloud (new null layers) in the **Name** box.
   :alt: Add Pointcloud Name
 
 Layers ( Drop down choice )
-_________________
+------------------------------------------
 
 * Auto - will export any new layers since the last export
 
@@ -125,7 +125,7 @@ _________________
   :alt: Layer Choice
 
 Export Additional button
-_________________
+------------------------------------------
 Click the **Export Additional** button to update the existing JSON file.
 
 .. image:: images/AEPanelAdd4.png
@@ -162,7 +162,7 @@ These settings will change the operation for TrackerJack.
   :alt: Info Tab
 
 JSON Save Location(Drop down choice)
-_________________
+------------------------------------------
 
 You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
 
@@ -170,11 +170,11 @@ You can change where the TrackerJack JSON file is saved. If you're on a team and
    
 * User Selection - After you click export you can choose where to save the JSON file.
 
-.. image:: images/AESettingsSave.png
-  :alt: JSON Tab
+      .. image:: images/AESettingsSave.png
+        :alt: JSON Tab
 
 Frame Export (Drop down choice)
-_________________
+------------------------------------------
 
 This determines how After Effects layer animation is written to the JSON file
 
@@ -182,15 +182,15 @@ This determines how After Effects layer animation is written to the JSON file
    
 * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
 
-.. image:: images/AESettingsFrame.png
-  :alt: Frame Export Choice
+      .. image:: images/AESettingsFrame.png
+        :alt: Frame Export Choice
 
 JSON filepath
-_________________
+------------------------------------------
 
 If you chose 'User Selection' you may need to select your JSON file here in order to add additional items. When generating a new JSON file this is unnessary (Auto Export or Manual Export). When using the Add Tab TrackerJack looks either in the folder where your Project is or at this field. If your JSON file is not in the project folder and this field is empty, you'll get an error.
 
-.. image:: images/AESettingsFilepath.png
-  :alt: JSON filepath
+      .. image:: images/AESettingsFilepath.png
+        :alt: JSON filepath
 
 
