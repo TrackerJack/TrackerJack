@@ -43,36 +43,36 @@ Two use Manual Export you must fill in the values for Focal Length and Angle of 
 
 3. Copy the **Focal Length** value.
 
-.. image:: images/AEManCam1.png
-  :alt: Camera Settings Focal Length
+      .. image:: images/AEManCam1.png
+        :alt: Camera Settings Focal Length
         
 4. Click Cancel to close the panel
 
 5. Paste the value into the TrackerJack **Focal Length** field.
 
-.. image:: images/AEManPan1.png
-  :alt: TrackerJack Focal Length
+      .. image:: images/AEManPan1.png
+        :alt: TrackerJack Focal Length
 
 
 6. Double click on the 3D Tracker Camera layer in the comp timeline.
 
 7. Copy the **Angle of View** value.
 
-.. image:: images/AEManCam2.png
-  :alt: Camera Setting Angle of View
+      .. image:: images/AEManCam2.png
+        :alt: Camera Setting Angle of View
 
 8. Click Cancel to close the panel
 
 9. Paste the value into the TrackerJack **Angle of View** field.
-
-.. image:: images/AEManPan2.png
-  :alt: TrackerJack Angle of View
+      
+      .. image:: images/AEManPan2.png
+        :alt: TrackerJack Angle of View
         
 
 10. Click the **Manual Export JSON** button to create the JSON file. A dialog box with the JSON file location will confirm success.
 
-.. image:: images/AEManBut.png
-  :alt: Manual Export Button
+      .. image:: images/AEManBut.png
+        :alt: Manual Export Button
 
 The JSON file is named *{Your Project File Name}_{The Comp Name}_TrackerJack.json* You can track one camera for each composition in your Project file.
 
@@ -98,13 +98,13 @@ _________________
 
 This is a shortcut. Clicking the button selects the movie layer and then selects the 3D Tracker Effect, which activates the track points for selection. This saves time scrolling in a timeline with hundreds of layers.
 
-.. image:: images/AEPanelAdd1.png
-  :alt: Select Trackers button
+      .. image:: images/AEPanelAdd1.png
+        :alt: Select Trackers button
 
 Once the track points are active you can create new nulls and or solids in your composition.
 
-.. image:: images/SelectItems.gif
-  :alt: Add Pointcloud Name
+      .. image:: images/SelectItems.gif
+        :alt: Add Pointcloud Name
 
 Name ( Entry Box )
 _________________
