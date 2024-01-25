@@ -1,10 +1,19 @@
+#####################################
+Bonus Features
+#####################################
+
+TrackerJack was designed to quickly import a 3D Camera Tracked Movie into Blender that could be scaled and aligned with ease. Allowing you to spend your time modeling and rendering. Since it's initial release more features have been added with the idea of saving time, and allowing you to quickly render quality scenes. 
+
+
 Setup Compositor
 _________________
 
-    .. image:: images/BP_4_compositor_setup.png
+Enabled by default in the Blender TrackerJack Import panel this creates a very simple Compositor setup so you're ready to render your created items with the background footage. Leaving this checkbox unchecked will skip this setup.
+
+    .. image:: images/BPanelCompositor.png
         :alt: TrackerJack Import Compositior Setup
         
-Enabled by default in the Blender TrackerJack Import panel this creates a very simple Compositor setup so you're ready to render your created items with the background footage. Leaving this checkbox unchecked will skip this setup.
+
 
 
 Eevee Shadow Catcher
