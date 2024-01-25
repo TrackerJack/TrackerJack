@@ -152,11 +152,11 @@ The **Eevee Shadow Catcher** is a bonus feature. There are two ways to use it.
  .. tip::
 The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subtract** nodes in the **Shader Editor** in order to match your scene. 
 
-See the chapter in the quick start video |here|.
+See the Eevee Shadow Catcher chapter in the quick start video |here|.
 
 .. |here| raw:: html
 
-   <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
+   <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
 
 
 Fake HDRI button
