@@ -87,6 +87,14 @@ Every purchase is a show of appreciation for the hard work and dedication necess
    <a href="https://blendermarket.com/products/trackerjack", target="_blank">BlenderMarket.com</a>
 
 
+Technical Support
+---------------------------------
+If you have any issues please reach out for assistance at use the "Contact Creator" button at |Blender Market Contact Page|
+Verified purchases thru Blender Market have access to customer support and free upgrades.
+
+.. |Blender Market Contact Page| raw:: html
+
+   <a href="https://blendermarket.com/creators/jim-elder", target="_blank">Blender Market Contact Page</a>
 
 .. toctree::
    :maxdepth: 2
