@@ -13,9 +13,9 @@ Installation
 After Effects Panel Install
 ----------------------------
 
-#. Add **TrackerJack_AE.jsxbin** to your ScriptUI Panels folder (After Effects > Scripts > ScriptUI Panels)
+#. Add **TrackerJack_AE-2.00.jsxbin** to your ScriptUI Panels folder (After Effects > Scripts > ScriptUI Panels)
 #. Authenticate with your Admin password if necessary.
-#. Open After Effects and select the **TrackerJack_AE.jsxbin** option in the Windows Menu command.
+#. Open After Effects and select the **TrackerJack_AE-2.00.jsxbin** option in the Windows Menu command.
 #. Drag the TrackerJack Panel to your desired location in the UI.
 
 .. image:: images/InstallAEplugin.gif
