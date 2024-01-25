@@ -17,11 +17,11 @@ Begining with TrackerJack 2.0 - animated nulls and solids are transferred with t
 .. tip::
         TrackerJack does not work with layer animation that is based on expressions, it must be keyframed. If you have a layer that uses expressions for position, orientation, or rotation make sure to select the layer then use the After Effects command *Animation > Keyframe Assitant > Convert Expression to Keyframes* to convert the layer before exporting with TrackerJack. 
 
-    .. image:: images/AEExpressionAnimation.png
-        :alt: Expression Animation
-
-    .. image:: images/AEKeyframeAnimation.png
-        :alt: Keyframe Animation
+            .. image:: images/AEExpressionAnimation.png
+                :alt: Expression Animation
+        
+            .. image:: images/AEKeyframeAnimation.png
+                :alt: Keyframe Animation
 
 Setup Compositor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -42,8 +42,8 @@ The **Eevee Shadow Catcher** is a bonus feature. There are two ways to use it.
 
 The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subtract** nodes in the **Shader Editor** in order to match your scene. 
 
-.. image:: images/BlenderShadowCatcherAdjust.png
-    :alt: ShadowCatcher Adjust
+        .. image:: images/BlenderShadowCatcherAdjust.png
+            :alt: ShadowCatcher Adjust
 
 .. tip::
         See the Eevee Shadow Catcher chapter in the quick start video |here|.
@@ -59,8 +59,8 @@ TrackerJack Supports the import and use of vertical or portrait orientation vide
 
 • Click the **Vertical Video Correction** button and the video will automatically be rotated to match your scene.
 
-.. image:: images/BlenderVerticalVideo.gif
-    :alt: Vertical Video Button
+        .. image:: images/BlenderVerticalVideo.gif
+            :alt: Vertical Video Button
 
 Set KeyFrame Interpolation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -68,16 +68,16 @@ When you import After Effects layers that have postion and orientation key frame
 
 • You can change this to any other interpolation that Blender supports by selecting the layer then clicking the **Set Keyframe Interpolation** button. 
 
-
-.. image:: images/BlenderKeyFrameInterpolation.png
-    :alt: Interpolation 1
+        
+        .. image:: images/BlenderKeyFrameInterpolation.png
+            :alt: Interpolation 1
 
 
 • A pop up menu will appear and you can apply the new interpolation mode.
 
 
-.. image:: images/BlenderKeyFrameInterpolation2.png
-    :alt: Interpolation options
+        .. image:: images/BlenderKeyFrameInterpolation2.png
+            :alt: Interpolation options
 
 
  .. tip::
@@ -92,8 +92,8 @@ Reset Scene Button
 
 Sometimes, you may import a scene, then decide to make changes such as **Adjust Start Frame** the **Reset Scene - Delete Everything** button is a quick way of deleting all items in the scene and any orphaned data.
 
-.. image:: images/BPanelResetScene.png
-    :alt: Reset Scene Button
+        .. image:: images/BPanelResetScene.png
+            :alt: Reset Scene Button
 
 
 Start Frame Adjust
@@ -105,8 +105,8 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
 **Frame** - Enter the Frame Number in Blender where the scene should start.
 **Movie Only** - Click Enable if you want to adjust the movie start independent of the tracked camera. (Uncommon for most uses)
 
-.. image:: images/BPanel_ImportOpts3.png
-    :alt: Start Frame Adjust
+        .. image:: images/BPanel_ImportOpts3.png
+            :alt: Start Frame Adjust
         
  .. tip::
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
@@ -118,14 +118,14 @@ Although there are many more features when using the TrackerJack 'n' panel in th
 
 • From the Blender Menu commands *File > Import > TrackerJack AE Tracking Data (.json)*
 
-.. image:: images/BImport1.png
-    :alt: File Import
+        .. image:: images/BImport1.png
+            :alt: File Import
 
 • Tap the n key to display the **Import Options**
 • Choose the appropriate settings and click the **Import** button.
 
-.. image:: images/BImport2.png
-    :alt: File Import Options
+        .. image:: images/BImport2.png
+            :alt: File Import Options
 
  .. tip::
         This method is only reccomended for users who have no issues with file paths (different Windows systems, network drives, or unsual naming conventions can make file path resolution inconsisitent).
