@@ -42,55 +42,57 @@ Select TrackerJack JSON File button
 Import Options Panel
 ======================================================
 
+
 Import Settings (Drop Down Choice)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. image:: images/BPanel_ImportOpts1.png
-    :alt: Import Type
+Import Settings has two options for how to import the After Effects items.
 
 1. **Import AE Scene** - This is the default setting, to be used for the first import of a JSON file to set up your scene. It deletes everything in the scene, yes even that default mesh box, and imports the After Effects Tracked Scene.
    
 2. **Add Additional Tracked Items** - Use this setting to update your scene with any with additional items you create in After Effects. This option is non-destructive, it adds new elements to the existing **World** Empty that is created after previously using **Import AE Scene**, because these new items are parented to the **World** they are already scaled and rotated.
- 
+
+.. image:: images/BPanel_ImportOpts1.png
+    :alt: Import Type
+
 
 Point Cloud
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/BPanel_ImportOpts2.png
-        :alt: TrackerJack Import Pointcloud
-        
 The null layers in your After Effects file can be imported into Blender as vertices in a point cloud mesh, or as individual empty layers.
  
 1. **Vertex** - This is the default setting, it is the fastest to import, and ready for modeling.
    
 2. **Empty** - You may import each null as a Blender Empty, but it is considerably slower. It may take several minutes to complete.
 
+.. image:: images/BPanel_ImportOpts2.png
+        :alt: TrackerJack Import Pointcloud
+
 
 Start Frame Adjust
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/BPanel_ImportOpts3.png
-    :alt: TrackerJack Import Frame Start
-        
 TrackerJack by default sets up the scene using the same start frame as your After Effects comp. However, depending on your source footage and workflow, the are times your After Effects comp might not start with frame 0. This results in your Blender scene being created later in your timeline. While you can change the start frame in the composition settings in After Effects before you export the JSON file with TrackerJack, you might find it easier to adjust where your footage begins in Blender by using this setting. 
 
 **Enable** - If Checked start frame will be adjusted.
 **Frame** - Enter the Frame Number in Blender where the scene should start.
 **Movie Only** - Click Enable if you want to adjust the movie start independent of the tracked camera. (Uncommon for most uses)
 
+.. image:: images/BPanel_ImportOpts3.png
+    :alt: TrackerJack Import Frame Start
+        
  .. tip::
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
 
 Setup Compositor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/BPanelCompositor.png
-    :alt: TrackerJack Import Compositior Setup
-        
 This setting is enabled by defaut. TrackerJack creates a very simple Compositor setup so you're ready to render your created items with the background footage. Leaving this checkbox unchecked will skip this setup.
 
 **Enable** - If checked the compositor will be enabled.  If unchecked the compositor will not be enabled.
 
+.. image:: images/BPanelCompositor.png
+    :alt: TrackerJack Import Compositior Setup
+        
 
 Import Scene Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
