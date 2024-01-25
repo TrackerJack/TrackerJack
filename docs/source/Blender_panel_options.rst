@@ -150,7 +150,13 @@ The **Eevee Shadow Catcher** is a bonus feature. There are two ways to use it.
 • Select a mesh layer in your scene. In Object mode click the **Add Eevee Shadow Catcher** button. The "ShadowCatcher" material will be appplied.
 
  .. tip::
-        The ShadowCatcher material requires adjusting the color ramp and subtract nodes in order to match your scene. See the chapter in the Quick Start video.
+The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subtract** nodes in the **Shader Editor** in order to match your scene. 
+
+See the chapter in the quick start video |here|.
+
+.. |here| raw:: html
+
+   <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
 
 
 Fake HDRI button
