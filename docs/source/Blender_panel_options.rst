@@ -111,11 +111,31 @@ Sometimes, you may import a scene, then decide to make changes such as **Adjust 
 
 .. image:: images/BPanelResetScene.png
     :alt: Reset Scene Button
+
 ======================================================
 Scene Options Panel
 ======================================================
 
+The **Scene Options** panel contains several extras and bonus features that you can use after you've imported your scene to improve and adjust it.
 
+.. image:: images/BPanel_SceneOpts1.png
+    :alt: Scene Options Panel
+
+Vertical Video Correction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TrackerJack Supports the import and use of vertical or portrait orientation video. However some footage (primarily taken on smartphones) is recorded in horizontal orientation and encoded with a 90˚ rotation in the metadata. After Effects reads this and automatically interprets the footage as vertical, Blender does not. After you **Import Scene** with vertical video with this issue, when you Press '0' to switch to the Camera view, or go to View -> Cameras -> Active Camera and press spacebar to play the timeline and update the scene, you will notice a problem with the background video.
+
+• Click the **Vertical Video Correction** button and the video will automatically be rotated to match your scene.
+
+.. image:: images/BPanel_SceneOpts1.png
+    :alt: Vertica Video Button
+
+Reset Scene Button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Reset Scene Button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Reset Scene Button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ======================================================
 Help Panel
 ======================================================
