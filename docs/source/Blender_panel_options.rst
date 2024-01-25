@@ -161,6 +161,10 @@ See the Eevee Shadow Catcher chapter in the quick start video |here|.
 
 Fake HDRI button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 ======================================================
-Help Panel
+Help panel
 ======================================================
+
+The Help panel has a link to the Quick Start Video and to this online Documentation.
+
