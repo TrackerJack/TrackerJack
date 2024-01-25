@@ -10,7 +10,7 @@ Create Tab
 
 Under the Create tab you have two options - Auto Export and Manual Export. 
 Auto Export is the default and easiest way to export your project data from After Effects to a JSON file that the Blender TrackerJack add-on will import. 
-Manual Export exists as a backup in case of the unlikely instance where Auto Export fails.
+Manual Export exists as a backup in the unlikely instance where Auto Export fails.
 
 .. image:: images/AEPanelCreate.png
       :alt: After Effects TrackerJack Panel
@@ -34,7 +34,7 @@ _________________
 
 Manual Export
 _________________
-There are only two entries to make in order create the initial export of your tracked composition. The values for Focal Length and Angle of View fields which can be copied from the Camera Settings panel.
+Two use Manual Export you must fill in the values for Focal Length and Angle of View fields which can be copied from the Camera Settings panel.
 
 1. Save your AE project file to a folder. This is the location where your JSON file will be saved. 
    You can also save to a custom file location *(Settings > JSON Save Location > User Selection)* 
@@ -77,17 +77,21 @@ There are only two entries to make in order create the initial export of your tr
 The JSON file is named *{Your Project File Name}_{The Comp Name}_TrackerJack.json* You can track one camera for each composition in your Project file.
 
 .. tip::
-        By default TrackerJack will export the JSON file for Blender to the same location where you've saved the After Effects Project File. When TrackerJack imports your footage into Blender, it first looks for the movie file wherever it was orginally located when imported into After Effects. If the file has moved, it will then look for it in the same folder as the JSON file. The easiest method to avoid issues is to keep your footage file, AE project file, and JSON file in the same folder.
+        By default TrackerJack will export the JSON file for Blender to the same location where you've saved the After Effects Project File. When TrackerJack imports your footage into Blender, it first looks for the movie file wherever it was orginally located when imported into After Effects. If the file has moved, it will then look for it in the same folder as the JSON file. The easiest method to avoid issues is to keep your footage file, AE project file, and JSON file in the same folder. If you need to save the JSON file to a separate location from the Project file, use |change the JSON Save Location| in *(Settings > JSON Save Location > User Selection)*
+
+.. |change the JSON Save Location| raw:: html
+
+      <a href="https://trackerjack-tutorial.readthedocs.io/en/latest/panel_options.rst#json-save-locationdrop-down-choice">change the JSON Save Location</a>
 
 
 ======================================================
 Add Tab
 ======================================================
+Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click **Export Additional** button the file is updated. 
 
 .. image:: images/AEPanelAdd.png
   :alt: TrackerJack Add Tab
 
-Once you've created your scene in Blender and begun modeling, you may decide to return to After Effects to create additional nulls and solids in order to add detail in areas not previously added. The Add tab allows you to update the existing JSON file with new items added to your timeline after the inital export. Each time you click **Export Additional** button the file is updated. 
 
 Select 3D Tracker Layer button
 _________________
@@ -133,20 +137,19 @@ Click the **Export Additional** button to update the existing JSON file.
 ======================================================
 Info Tab
 ======================================================
+After exporting the JSON file the **Info tab** displays detailed information about your comp and project, which can be useful for troubleshooting any issues.
 
 .. image:: images/AEPanelInfo.png
   :alt: Info Tab
 
-After exporting the JSON file the **Info tab** displays detailed information about your comp and project, which can be useful for troubleshooting any issues.
 
 ======================================================
 JSON Tab
 ======================================================
+After exporting the JSON file the **JSON tab** displays the generated JSON data. You can copy and paste into a text editor or use the **Save JSON File** button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
 
 .. image:: images/AEPanelJSON.png
   :alt: JSON Tab
-
-After exporting the JSON file the **JSON tab** displays the generated JSON data. You can copy and paste into a text editor or use the **Save JSON File** button if the export didn't complete writing to a file. You can also edit the data in this box before saving.
 
 
 ======================================================
@@ -158,14 +161,8 @@ These settings will change the operation for TrackerJack.
 .. image:: images/AEPanelSettings.png
   :alt: Info Tab
 
-
-
 JSON Save Location(Drop down choice)
 _________________
-
-.. image:: images/AESettingsSave.png
-  :alt: JSON Tab
-
 
 You can change where the TrackerJack JSON file is saved. If you're on a team and need to save the JSON file locally this can be useful.
 
@@ -173,19 +170,20 @@ You can change where the TrackerJack JSON file is saved. If you're on a team and
    
 * User Selection - After you click export you can choose where to save the JSON file.
 
+.. image:: images/AESettingsSave.png
+  :alt: JSON Tab
 
 Frame Export (Drop down choice)
 _________________
 
 This determines how After Effects layer animation is written to the JSON file
 
-.. image:: images/AESettingsFrame.png
-  :alt: Frame Export Choice
-
 * Keyframes Only - Only the actual layer keys are exported. Use with linear or Bezier interpolation
    
 * Bake All Frames - Keys are generated for every frame of animation. Use with Easing or complex animations not available in Blender.
 
+.. image:: images/AESettingsFrame.png
+  :alt: Frame Export Choice
 
 JSON filepath
 _________________
