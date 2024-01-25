@@ -161,16 +161,21 @@ Add Eevee Shadow Catcher
 The **Eevee Shadow Catcher** is a bonus feature. There are two ways to use it. 
 
 • Any solid layer that you rename "Shadow" in After Effects before exporting, will automatically have the "ShadowCatcher" material appplied to the layer when it is imported into Blender.
+
 • Select a mesh layer in your scene. In Object mode click the **Add Eevee Shadow Catcher** button. The "ShadowCatcher" material will be appplied.
 
- .. tip::
 The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subtract** nodes in the **Shader Editor** in order to match your scene. 
 
-See the Eevee Shadow Catcher chapter in the quick start video |here|.
+.. image:: images/BlenderShadowCatcherAdjust.png
+    :alt: ShadowCatcher Adjust
 
-.. |here| raw:: html
 
-   <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
+.. tip::
+        See the Eevee Shadow Catcher chapter in the quick start video |here|.
+    
+        .. |here| raw:: html
+        
+           <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
 
 
 Fake HDRI button
