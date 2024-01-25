@@ -8,7 +8,7 @@ TrackerJack was designed to quickly import a 3D Camera Tracked Movie into Blende
 
 Fexible workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-One important feature that was part of TrackerJack's design from the start is the ability, to track and export from After Effects, import and work in Blender, then decide that more tracker points or solids are needed and be able to go back to After Effects, create more layers and update the existing Blender scene without having to start over.
+One important feature that was part of TrackerJack's design from the start is the ability, to track and export from After Effects, import and work in Blender. Then if you decide that more tracker points or solids are needed to be able to go back to After Effects, create more layers and update the existing Blender scene without having to start over.
 
 Animated Layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -53,7 +53,6 @@ The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subt
            <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
 
 
-
 Vertical Video Correction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TrackerJack Supports the import and use of vertical or portrait orientation video. However some footage (primarily taken on smartphones) is recorded in horizontal orientation and encoded with a 90˚ rotation in the metadata. After Effects reads this and automatically interprets the footage as vertical, Blender does not. After you **Import Scene** with vertical video with this issue, when you Press '0' to switch to the Camera view, or go to View -> Cameras -> Active Camera and press spacebar to play the timeline and update the scene, you will notice a problem with the background video.
@@ -95,4 +94,20 @@ Sometimes, you may import a scene, then decide to make changes such as **Adjust 
 
 .. image:: images/BPanelResetScene.png
     :alt: Reset Scene Button
+
+
+Start Frame Adjust
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+TrackerJack by default sets up the scene using the same start frame as your After Effects comp. However, depending on your source footage and workflow, the are times your After Effects comp might not start with frame 0. This results in your Blender scene being created later in your timeline. While you can change the start frame in the composition settings in After Effects before you export the JSON file with TrackerJack, you might find it easier to adjust where your footage begins in Blender by using this setting. 
+
+**Enable** - If Checked start frame will be adjusted.
+**Frame** - Enter the Frame Number in Blender where the scene should start.
+**Movie Only** - Click Enable if you want to adjust the movie start independent of the tracked camera. (Uncommon for most uses)
+
+.. image:: images/BPanel_ImportOpts3.png
+    :alt: Start Frame Adjust
+        
+ .. tip::
+        After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
 
