@@ -92,4 +92,12 @@ This setting is enabled by defaut. TrackerJack creates a very simple Compositor 
 **Enable** - If checked the compositor will be enabled.  If unchecked the compositor will not be enabled.
 
 
+Import Scene Button
+_________________
 
+• The button is disabled and appears as **Select Files First** until a TrackerJack JSON file has been selected in the **Select Files** panel.
+• The button is enabled and appears as **Import Scene without Movie** when a TrackerJack JSON filepath is verified but the **Movie File** is missing. You can proceed and import all tracked items and camera without the movie, or use the **Movie File** button to locate the movie.
+• The button is enabled and appears as **Import Scene** when both the TrackerJack JSON filepath and Movie filepath are verified.
+
+.. image:: images/BPanelImportScene.png
+    :alt: TrackerJack Import Scene Button
