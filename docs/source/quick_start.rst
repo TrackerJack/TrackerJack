@@ -7,7 +7,7 @@ Watch the full quick start video |here|.
 
    .. |here| raw:: html
    
-      <a href="https://youtu.be/btiEqsJ1q_E" target="_blank">here</a>
+      <a href="https://youtu.be/Kh93BKzAZQ4" target="_blank">here</a>
    
 ======================================================
 After Effects
