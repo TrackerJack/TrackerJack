@@ -175,7 +175,7 @@ The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subt
     
         .. |here| raw:: html
         
-           <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
+           <a href="https://youtu.be/Kh93BKzAZQ4&t=677" target="_blank">here</a>
 
 
 Fake HDRI button
@@ -204,7 +204,7 @@ This isn't true HDRI lighting. But it can give suprisingly good results. If you 
     
         .. |HDRIVideo| raw:: html
 
-           <a href="https://youtu.be/btiEqsJ1q_E&t=717" target="_blank">here</a>
+           <a href="https://youtu.be/Kh93BKzAZQ4&t=717" target="_blank">here</a>
 
 ======================================================
 Help panel
