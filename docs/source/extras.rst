@@ -4,15 +4,21 @@ Bonus Features
 
 Speed and Ease of use
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Designed with Speed in mind.**
+
 TrackerJack was designed to quickly import a 3D Camera Tracked Movie into Blender that could be scaled and aligned with ease. Allowing you to spend your time modeling and rendering. Since it's initial release more features have been added with the idea of saving time, and allowing you to quickly render quality scenes. 
 
 Fexible workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**Start quick add more details later.**
+
 One important feature that was part of TrackerJack's design from the start is the ability, to track and export from After Effects, import and work in Blender. Then if you decide that more tracker points or solids are needed to be able to go back to After Effects, create more layers and update the existing Blender scene without having to start over.
 
 Animated Layers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Begining with TrackerJack 2.0 - animated nulls and solids are transferred with their position and orientation animation intact. You can motion track a object in your movie, attact the tracker to a null and have it brought into your 3D Blender scene and to replace with a 3D model.
+**Track items in After Effects with simple keys or advanced easing and apply them to Blender objects.**
+
+Begining with TrackerJack 2.0 - animated nulls and solids are transferred with their position and orientation animation intact. You can motion track a object in your movie, attact the tracker to a null and have it brought into your 3D Blender scene and parent your Blender object to that animation.
 
 .. tip::
         TrackerJack does not work with layer animation that is based on expressions, it must be keyframed. If you have a layer that uses expressions for position, orientation, or rotation make sure to select the layer then use the After Effects command *Animation > Keyframe Assitant > Convert Expression to Keyframes* to convert the layer before exporting with TrackerJack. 
@@ -51,6 +57,34 @@ The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subt
         .. |here| raw:: html
         
            <a href="https://youtu.be/btiEqsJ1q_E&t=677" target="_blank">here</a>
+
+Fake HDRI button
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+This isn't true HDRI lighting. But it can give suprisingly good results. If you don't have a HDRI of the footage location the **Fake HDRI** button will use your footage as an Equirectangular Image texture on the World shader.
+
+.. image:: images/BlenderFakeHDRISetup.png
+        :alt: Fake HDRI Setup
+
+
+• Click the **Fake HDRI** button
+
+    .. image:: images/BlenderFakeHDRI.png
+        :alt: Fake HDRI button
+
+• The Frame and Rotation controls allow you to match the background to your scene. They also can be keyframed.
+
+    .. image:: images/BlenderFakeHDRI2.png
+        :alt: Fake HDRI button
+
+    .. image:: images/FakeHDRI.gif
+        :alt: Fake HDRI Process
+
+.. tip::
+        See the Fake HDRI chapter in the quick start video |HDRIVideo|.
+    
+        .. |HDRIVideo| raw:: html
+
+           <a href="https://youtu.be/btiEqsJ1q_E&t=717" target="_blank">here</a>
 
 
 Vertical Video Correction
@@ -105,10 +139,10 @@ TrackerJack by default sets up the scene using the same start frame as your Afte
 **Frame** - Enter the Frame Number in Blender where the scene should start.
 **Movie Only** - Click Enable if you want to adjust the movie start independent of the tracked camera. (Uncommon for most uses)
 
-        .. image:: images/BPanel_ImportOpts3.png
-            :alt: Start Frame Adjust
+.. image:: images/BPanel_ImportOpts3.png
+    :alt: Start Frame Adjust
         
- .. tip::
+.. tip::
         After Effects compositions normally start at Frame 0, Blender timelines begin at Frame 1. TrackerJack adjusts all start frames from 0 to 1 automatically. However, if the After Effects composition begins after frame 1, TrackerJack makes no adjustment. (Unless you use the Frame Adjust option).
 
 Alternate Import Workflow
