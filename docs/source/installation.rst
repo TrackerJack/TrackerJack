@@ -7,7 +7,7 @@ Installation
 
 .. |Video Link| raw:: html
 
-   <a href="https://youtu.be/btiEqsJ1q_E?t=00m04s" target="_blank">Video Link</a>
+   <a href="https://youtu.be/Kh93BKzAZQ4?t=00m04s" target="_blank">Video Link</a>
 
 ----------------------------
 After Effects Panel Install
