@@ -38,34 +38,27 @@ TrackerJack has 2 components -
       * All 3d camera details, animation, and background footage attached
       
       * Scene duration, Frame Rate, Color Settings
-      
-      * Tracked points imported as point clouds with editable vertices
-      
-      * Solids imported as Mesh Planes
 
-      * Supports import of After Effects animated solids and nulls, importing either key frames or data for every frame (for matching complicated AE animations)
+      * After Effects Null imports as either vertex or empty
+
+      * After Effects Solid imports as Mesh Plane
       
-      * All imported items parented to a Empty named "World" for easy scaling and grid alignment.
-      
-      * Human Scale mesh created for use in scaling the scene.
-      
-      * Simple Compositor setup by default
-      
-      * Any Solid in your After Effects Timeline named "Shadow" will have a simple Eevee shadowcatcher shader node setup.
 
 ---------------------------------
 Features
 ---------------------------------
 
 * Uses After Effects Automated 3d Camera Tracking.
+* Tracked points imported as point clouds with editable vertices.
+* Solids imported as Mesh Planes
 * One button Auto Export from After Effects.
 * Faster results - spend more time modeling and animating instead of tracking.
 * Longer and more complicated tracks.
+* Easilay add additional items later to update your scene instead of starting over.
 * Easy to us scene alignment and real world scaling.
 * Supports import of animated nulls and solids.
 * One button correction of smartphone vertical footage.
 * Speed shortcuts like background footage and composition node setup.
-* Add additional pointclouds and layers after intital import.
 * Easily adjust Keyframe interpolation
 * Includes these bonus effects 
    * Eevee shadow catcher
@@ -77,10 +70,6 @@ Features
 How to Purchase
 ---------------------------------
 TrackerJack is exculsively available at |BlenderMarket.com|
-
-Support creators by purchasing software directly.
-Software piracy destroys the incentive necessary for a thriving community of innovation and creativity. 
-Every purchase is a show of appreciation for the hard work and dedication necessary to develop even more amazing and useful tools for everyone.
 
 .. |BlenderMarket.com| raw:: html
 
