@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'TrackerJack'
-copyright = '2022, TrackerJack'
+copyright = '2024, TrackerJack'
 author = 'TrackerJack'
 
 release = '2.0'
