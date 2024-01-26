@@ -208,3 +208,5 @@ Help panel
 
 The Help panel has a link to the Quick Start Video and to this online Documentation.
 
+.. image:: images/BPanel_help.png
+    :alt: Fake HDRI Process
