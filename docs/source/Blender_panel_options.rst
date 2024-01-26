@@ -180,14 +180,18 @@ The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subt
 
 Fake HDRI button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-This isn't true HDRI lighting. But it can give suprisingly good results. If you don't have a HDRI of the footage location the **Fake HDRI** button will use your footage as an enviormnent material.
+This isn't true HDRI lighting. But it can give suprisingly good results. If you don't have a HDRI of the footage location the **Fake HDRI** button will use your footage as an Equirectangular Image texture on the World shader.
+
+    .. image:: images/BlenderFakeHDRISetup.png
+        :alt: Fake HDRI button
+
 
 • Click the **Fake HDRI** button
 
     .. image:: images/BlenderFakeHDRI.png
         :alt: Fake HDRI button
 
-• The Frame and Rotation controls allow you to match the background to your scene. They also can be keframed. 
+• The Frame and Rotation controls allow you to match the background to your scene. They also can be keyframed.
 
     .. image:: images/BlenderFakeHDRI2.png
         :alt: Fake HDRI button
