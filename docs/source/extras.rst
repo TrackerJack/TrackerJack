@@ -76,7 +76,7 @@ This isn't true HDRI lighting. But it can give suprisingly good results. If you 
     .. image:: images/BlenderFakeHDRI2.png
         :alt: Fake HDRI button
 
-    .. image:: images/FakeHDRI.gif
+    .. image:: images/FakeHDRI2.gif
         :alt: Fake HDRI Process
 
 .. tip::
