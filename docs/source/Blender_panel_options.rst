@@ -171,7 +171,7 @@ The "ShadowCatcher" material may require adjusting the **Color Ramp** and **Subt
 
 
 .. tip::
-        See the Eevee Shadow Catcher chapter in the quick start video |here|.
+        See the Eevee Shadow Catcher chapter in the quick start video |here|. Eevee shadows aren't very high quality, but can be useful for previsualization. Eevee Shadow Catcher is best used for still images. For high quality renders and animation, cycles will provide the best results.
     
         .. |here| raw:: html
         
